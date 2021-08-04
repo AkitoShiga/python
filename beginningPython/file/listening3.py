@@ -1,0 +1,15 @@
+f = open('somefile4.txt', 'w')
+print('First', 'line', file=f)
+print('Second', 'line', file=f)
+print('Third', 'line', file=f)
+f.close()
+
+print('\n===\n')
+lines = list(open('somefile4.txt'))
+print(lines)
+print('\n===\n')
+
+first, second, third, = open('somefile4.txt')
+print(first)
+print(second)
+print(third)
