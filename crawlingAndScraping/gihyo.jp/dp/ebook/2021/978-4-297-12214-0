@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>無駄なマシーンを発明しよう！ ～独創性を育むはじめてのエンジニアリング～ | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="明和電機社長・土佐信道　推薦！「ホモサピエンスが文明を発達させることができた理由，それが「無駄づくり」。本書を読めばそれがよくわかります。　※この本を読んでも，役に立つものはまったく作れません。ご注意ください」頭の中に浮かんだ不必要な物を何とか作り上げる「無駄づくり」を続けてきた“無駄なもの発明家”が，ついに子ども向けに工作のアイディアと方法をわかりやすく解説！ポンコツなロボットも，ぶさいくなぬいぐるみも，無駄づくりなら大成功！世界で君だけしか思いつかない「無駄」を生み出そう！【特徴1】誰でもはじめられる“ゆるゆる”なものづくり入門書！「作りながら読む」「簡単なことのプロになる」「自分で考える」というコンセプトのもと，手に入りやすい道具・素材で工作を行います。最初は作り方の解説をしながら，道具同士をくっつけるだけの簡単なところからはじめるので，どなたでも工作を楽しめます。【特徴2】プログラミングも発想術も身につくSTEM教育にも役立つ一冊！書籍の後半では初学者にもやさしいマイコンボード・Arduinoを用いたプログラミングも行います。さらに，自分でアイディアを考える方法も取り上げるので，発想から生み出せる力が育ちます。エンジニアリング，プログラミング，発想力と，これからの時代に必要とされる能力を楽しみながら伸ばせるため，STEM教育・STEAM教育にも役立ちます。【特徴3】SNSやメディアをにぎわせた「無駄づくり」のレシピを大公開！「インスタ映え台無しマシーン」をはじめとする「無駄づくり」のつくり方も紹介しています。はさみなどの手ごろな工作道具と電子部品，そして段ボールなどの身近な素材があれば，かんたんに「無駄の再発明」を体験できます。「無駄づくり」のファンの方はもちろん，ものづくりに興味を持つお子さんや，夏休みの研究に悩んでいるお子さんがいるご家庭にもおすすめの一冊です！"/>
+  <meta name="keywords" content="藤原麻里菜,登尾徳誠電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0422.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0425.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="無駄なマシーンを発明しよう！ ～独創性を育むはじめてのエンジニアリング～ | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="明和電機社長・土佐信道　推薦！「ホモサピエンスが文明を発達させることができた理由，それが「無駄づくり」。本書を読めばそれがよくわかります。　※この本を読んでも，役に立つものはまったく作れません。ご注意ください」頭の中に浮かんだ不必要な物を何とか作り上げる「無駄づくり」を続けてきた“無駄なもの発明家”が，ついに子ども向けに工作のアイディアと方法をわかりやすく解説！ポンコツなロボットも，ぶさいくなぬいぐるみも，無駄づくりなら大成功！世界で君だけしか思いつかない「無駄」を生み出そう！【特徴1】誰でもはじめられる“ゆるゆる”なものづくり入門書！「作りながら読む」「簡単なことのプロになる」「自分で考える」というコンセプトのもと，手に入りやすい道具・素材で工作を行います。最初は作り方の解説をしながら，道具同士をくっつけるだけの簡単なところからはじめるので，どなたでも工作を楽しめます。【特徴2】プログラミングも発想術も身につくSTEM教育にも役立つ一冊！書籍の後半では初学者にもやさしいマイコンボード・Arduinoを用いたプログラミングも行います。さらに，自分でアイディアを考える方法も取り上げるので，発想から生み出せる力が育ちます。エンジニアリング，プログラミング，発想力と，これからの時代に必要とされる能力を楽しみながら伸ばせるため，STEM教育・STEAM教育にも役立ちます。【特徴3】SNSやメディアをにぎわせた「無駄づくり」のレシピを大公開！「インスタ映え台無しマシーン」をはじめとする「無駄づくり」のつくり方も紹介しています。はさみなどの手ごろな工作道具と電子部品，そして段ボールなどの身近な素材があれば，かんたんに「無駄の再発明」を体験できます。「無駄づくり」のファンの方はもちろん，ものづくりに興味を持つお子さんや，夏休みの研究に悩んでいるお子さんがいるご家庭にもおすすめの一冊です！"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2021/978-4-297-12214-0"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12214-0.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL906V3TN7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DL906V3TN7');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">無駄なマシーンを発明しよう！<br><span class="sub">～独創性を育むはじめてのエンジニアリング～</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12214-0.jpg" alt="無駄なマシーンを発明しよう！ ～独創性を育むはじめてのエンジニアリング～"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">藤原麻里菜　著，<wbr/>登尾徳誠（ニャンパス株式会社）　監修</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2021-07-15">2021年7月15日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2021-07-15">2021年7月15日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2021/978-4-297-12213-3" target="_blank">2021年7月19日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,800円 <a id="pid403288" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">176</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2021/978-4-297-12214-0" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2021/978-4-297-12214-0" data-text="無駄なマシーンを発明しよう！ ～独創性を育むはじめてのエンジニアリング～ #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2021/978-4-297-12214-0" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2021/978-4-297-12214-0" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<h5>明和電機社長・<wbr/>土佐信道　推薦！</h5>
+<p>「ホモサピエンスが文明を発達させることができた理由，<wbr/>それが「無駄づくり」。本書を読めばそれがよくわかります。　※この本を読んでも，<wbr/>役に立つものはまったく作れません。ご注意ください」</p>
+
+<h5>頭の中に浮かんだ不必要な物を何とか作り上げる「無駄づくり」を続けてきた“無駄なもの発明家”が，<wbr/>ついに子ども向けに工作のアイディアと方法をわかりやすく解説！</h5>
+<h5>ポンコツなロボットも，<wbr/>ぶさいくなぬいぐるみも，<wbr/>無駄づくりなら大成功！</h5>
+<h5>世界で君だけしか思いつかない「無駄」を生み出そう！</h5>
+
+<h5>【特徴1】誰でもはじめられる“ゆるゆる”なものづくり入門書！</h5>
+<p>「作りながら読む」「簡単なことのプロになる」「自分で考える」というコンセプトのもと，<wbr/>手に入りやすい道具・<wbr/>素材で工作を行います。最初は作り方の解説をしながら，<wbr/>道具同士をくっつけるだけの簡単なところからはじめるので，<wbr/>どなたでも工作を楽しめます。</p>
+
+<h5>【特徴2】プログラミングも発想術も身につくSTEM教育にも役立つ一冊！</h5>
+<p>書籍の後半では初学者にもやさしいマイコンボード・<wbr/>Arduinoを用いたプログラミングも行います。さらに，<wbr/>自分でアイディアを考える方法も取り上げるので，<wbr/>発想から生み出せる力が育ちます。エンジニアリング，<wbr/>プログラミング，<wbr/>発想力と，<wbr/>これからの時代に必要とされる能力を楽しみながら伸ばせるため，<wbr/>STEM教育・<wbr/>STEAM教育にも役立ちます。</p>
+
+<h5>【特徴3】SNSやメディアをにぎわせた「無駄づくり」のレシピを大公開！</h5>
+<p>「インスタ映え台無しマシーン」をはじめとする「無駄づくり」のつくり方も紹介しています。はさみなどの手ごろな工作道具と電子部品，<wbr/>そして段ボールなどの身近な素材があれば，<wbr/>かんたんに「無駄の再発明」を体験できます。</p>
+
+<p>「無駄づくり」のファンの方はもちろん，<wbr/>ものづくりに興味を持つお子さんや，<wbr/>夏休みの研究に悩んでいるお子さんがいるご家庭にもおすすめの一冊です！</p><h3>こんな方におすすめ</h3>
+<ul><li>ものづくりに興味がある子</li><li>変なもの・<wbr/>面白いものを作ってみたい子</li></ul>
+<h3>著者から一言</h3>
+<h5>無駄って悪いもの？</h5>
+<p>わたしは，<b>無駄なものをつくるプロです。</b>無駄なものをつくることが仕事の，<wbr/>無駄のプロフェッショナルなのです。わたしは，<wbr/>無駄を愛しているのですが，<b>世間ではまだまだ「無駄は悪いもの」という考え方の人が多いようです。</b>余計なことをして遊んでいると，<wbr/>「無駄なことしない！」とおこられたり，<wbr/>好きなものを買うと「また無駄づかいして！」とおこられたり。これを読んでいるみんなはどうでしょうか？　<b>無駄って悪いものだと思いますか？</b></p>
+
+<h5>「大失敗」を「大成功」に！</h5>
+<p>無駄というのは，<wbr/>人生，<wbr/>いや，<wbr/>世界においてとても大切なことです。それが回り回って人の役に立つものになることもあります。<br />
+周りにも，<wbr/>無駄を大切にしたからつくられたものがたくさんあります。たとえば，<wbr/>付せん。ある研究者がすごく強い接着ざいを開発しようと研究していたら，<wbr/>なぜかすごく弱い接着ざいができあがってしまいました。これは失敗です。ですが，<wbr/>この失敗を「なにかに使えるかも？」と考えて，<wbr/>できあがったのがはってはがせる「付せん」です。<b>無駄を大切にすることは，<wbr/>失敗を広い心で受け入れることなのです。</b>
+大勢が失敗だと思っていることを成功にすることは，<wbr/>無駄を大切にする者にしかできないことです。そして，<b>失敗が成功になることで，<wbr/>世界はもっと楽しくなる。</b>わたしが保証します。<br />
+わたしは工作が下手です。かっこいいロボットをつくろうとしても，<wbr/>ポンコツなロボットしかつくれません。かわいいぬいぐるみをつくろうとしても，<wbr/>ぶさいくなぬいぐるみができあがっちゃう。しかし，<b>ふつうは失敗になるものも，<wbr/>「無駄づくり」では大成功。</b>ポンコツなロボットも，<wbr/>ぶさいくなぬいぐるみも，<wbr/>それはそれでアリ。おもしろいし，<wbr/>楽しい！　と思えるのが，<wbr/>「無駄づくり」の力です。<br />
+それに，<wbr/>「無駄」と言われることの多くは，<wbr/>だれもやっていないことです。わたしのつくる無駄なものも，<wbr/>もしわたしがいなかったら，<wbr/>この世に生まれなかったでしょう。<b>頭にうかんだ「無駄」をつくることは，<wbr/>その人にしかできないことなのです。</b><br />
+不器用でも，<wbr/>おおざっぱでもだいじょうぶ。失敗がない世界に飛びこんでみよう。よーし，<wbr/>では，<wbr/>みんなで無駄なものをつくっていきましょう！<br />
+（本書「どうして無駄なものをつくるのか」より）</p><aside class="author"><h3>藤原麻里菜（ふじわらまりな）</h3><p>著者。<br />
+1993年生まれ。コンテンツクリエイター，<wbr/>文筆家。頭の中に浮かんだ不必要な物を何とか作り上げる「無駄づくり」を主な活動とし，<wbr/>YouTubeを中心にコンテンツを広げている。2016年，<wbr/>Google社主催の「YouTubeNextUp」に入賞。2018年，<wbr/>国外での初個展「無用發明展―無中生有的沒有用部屋in台北」を開催。25,000人以上の来場者を記録した。「総務省 異能vation 破壊的な挑戦者部門 2019年度」採択。「オンライン飲み会緊急脱出マシーン」が第24回文化庁メディア芸術祭エンターテインメント部門審査委員会推薦作品に選出。著書に『考える術』（ダイヤモンド社），<wbr/>『無駄なことを続けるために』（ヨシモトブックス）。</p>
+</aside><aside class="author"><h3>登尾徳誠（ニャンパス株式会社）（のぼりおとくせい　ニャンパスかぶしきがいしゃ）</h3><p>監修者。<br />
+1980年鹿児島県生まれ。小学生のころからプログラミングを始め，<wbr/>2010年に埼玉県越谷レイクタウンにてニャンパス株式会社を起業。IoTデバイスなどの開発を行うかたわら，<wbr/>コワーキングスペースHaLakeを運営。精力的に勉強会を行うほか，<wbr/>毎週小学生向けにプログラミング教室も開催している。著書に『ゼロからよくわかる！　Arduinoで電子工作入門ガイド』（技術評論社），<wbr/>『はじめてのClojure』（工学社）。</p></aside><section id="sample"><h2>サンプル</h2><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-01.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/thumb/TH400_9784297122133-01.jpg,https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-01.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-02.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/thumb/TH400_9784297122133-02.jpg,https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-02.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-03.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/thumb/TH400_9784297122133-03.jpg,https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-03.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-04.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/thumb/TH400_9784297122133-04.jpg,https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-04.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-05.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/thumb/TH400_9784297122133-05.jpg,https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/9784297122133-05.jpg" width="400" height="533" alt="sample"/></a></section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="42632">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章 無駄なものをつくってみよう</h3>
+<ul class="toc">
+<li>どうして無駄なものをつくるのか</li>
+<li>この本の使い方</li>
+
+</ul>
+<h3>第2章 くっつけてマシーンをつくろう</h3>
+<ul class="toc">
+<li>ものとものをくっつけよう</li>
+<li>動きの応用方法を考えよう</li>
+<li>どんどんくっつけよう！</li>
+<li>無駄づくりのレシピ：最高の自撮りができるマシーン</li>
+
+</ul>
+<h3>第3章 改造してマシーンをつくろう</h3>
+<ul class="toc">
+<li>分解してしくみを学ぼう</li>
+<li>分解のようすをのぞいてみよう</li>
+<li>電池で動くものを改造しよう</li>
+<li>無駄づくりのレシピ：小銭探知ぐつ</li>
+
+</ul>
+<h3>第4章 動きをプログラミングしよう</h3>
+<ul class="toc">
+<li>Arduinoを使ってプログラミングをしよう</li>
+<li>Arduinoをセットアップしよう</li>
+<li>はじめてのプログラミング</li>
+<li>サーボモーターを動かしてみよう</li>
+<li>サーボモーターをふたつつなげよう</li>
+<li>スイッチを使おう</li>
+<li>無駄づくりのレシピ：インスタ映え台無しマシーン</li>
+
+</ul>
+<h3>第5章 Arduinoでセンサーを使おう</h3>
+<ul class="toc">
+<li>光センサーを使おう</li>
+<li>光の量を読み取ってみよう</li>
+<li>光センサーとサーボモーターをつなげよう</li>
+<li>無駄づくりのレシピ：電気がつくと電気を消すマシーン</li>
+<li>無駄づくりのレシピ：プリンを守るマシーン</li>
+
+</ul>
+<h3>第6章 もっとセンサーを使おう</h3>
+<ul class="toc">
+<li>圧電素子を使おう</li>
+<li>圧電素子とサーボモーターをつなげよう</li>
+<li>無駄づくりのレシピ：手をたたくとおかしがやってくるマシーン</li>
+
+</ul>
+<h3>第7章 アイディアを考えよう</h3>
+<ul class="toc">
+<li>アイディアは無駄から生まれる！</li>
+<li>想像力をふくらまそう</li>
+<li>問題から考えよう</li>
+<li>解決の仕方を考えよう</li>
+
+</ul>
+<h3>第8章 思いつきをかたちにしよう</h3>
+<ul class="toc">
+<li>設計図を書こう</li>
+<li>材料をそろえよう</li>
+<li>素材・材料のヒント</li>
+<li>“試行さく誤”しながらつくろう</li>
+<li>人に見せよう</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書の内容を試していただけるサンプルファイルをご利用いただけます。サンプルファイルは，<wbr/>下記のリンクより圧縮ファイル形式（zip）でダウンロードできます。解凍してご利用ください。</p>
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12213-3/download/muda_sample.zip">muda_sample.zip</a></dd>
+</dl>
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2021 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2021\/978-4-297-12214-0","path":"\/dp\/ebook\/2021\/978-4-297-12214-0","targetId":"978-4-297-12214-0","parent":"\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;gtag('event','JSError',{'evetn_category':'Error','event_label':mes});};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

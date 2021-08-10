@@ -1,0 +1,748 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>C#コードレシピ集 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="C#を使いこなすための，究極のレシピ集。基礎から高度な文法，開発現場で使えるテクニックまで余すところなく集めました。基本文法/数値演算/例外処理/LINQ/クラス/インターフェイス/リフレクション……参照しやすいようにわかりやすく整理。「どんなコードを書けば思い通りに動くんだろう？」がスグに解決。駆け出しエンジニアから開発者まで，C#を使うすべての方にお届けします。C# 9.0，.NET 5.0対応。"/>
+  <meta name="keywords" content="出井秀行電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0422.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0425.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="C#コードレシピ集 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="C#を使いこなすための，究極のレシピ集。基礎から高度な文法，開発現場で使えるテクニックまで余すところなく集めました。基本文法/数値演算/例外処理/LINQ/クラス/インターフェイス/リフレクション……参照しやすいようにわかりやすく整理。「どんなコードを書けば思い通りに動くんだろう？」がスグに解決。駆け出しエンジニアから開発者まで，C#を使うすべての方にお届けします。C# 9.0，.NET 5.0対応。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2021/978-4-297-12266-9"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12266-9.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL906V3TN7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DL906V3TN7');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E3%83%AC%E3%82%B7%E3%83%94%E9%9B%86">レシピ集</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">C#<wbr>コードレシピ集</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12266-9.jpg" alt="C#コードレシピ集"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">出井秀行　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2021-08-11">2021年8月11日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2021-08-11">2021年8月11日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2021/978-4-297-12265-2" target="_blank">2021年8月14日に発売される書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">EPUB/PDFセット</span><span class="buy">3,280円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">736</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> <span class="plan">8月11日発売予定<a href="#" id="releaseNotify" class="" data-pid="403304" title="発売日にメールで通知する（要ログイン）">発売日に通知する</a></span></dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2021/978-4-297-12266-9" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2021/978-4-297-12266-9" data-text="C#コードレシピ集 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2021/978-4-297-12266-9" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2021/978-4-297-12266-9" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>C#を使いこなすための，<wbr/>究極のレシピ集。<br />
+基礎から高度な文法，<wbr/>開発現場で使えるテクニックまで余すところなく集めました。<br />
+基本文法/数値演算/例外処理/LINQ/クラス/インターフェイス/リフレクション……参照しやすいようにわかりやすく整理。<br />
+「どんなコードを書けば思い通りに動くんだろう？」がスグに解決。<br />
+駆け出しエンジニアから開発者まで，<wbr/>C#を使うすべての方にお届けします。<br />
+C# 9.0，<wbr/>.NET 5.0対応。</p><h3>こんな方におすすめ</h3>
+<ul><li>C#の初級者～中級者</li><li>C#を使ってアプリケーションやゲームなどを開発する方</li></ul>
+<aside class="author"><h3>出井秀行（いでいひでゆき）</h3><p>東京理科大学理工学部情報科学科卒業。株式会社ジードに勤務。<br />
+2004年からgushwellというハンドルネームでオンライン活動を開始。主にC#に関する技術情報を発信。2005年から17年連続でMicrosoft MVPアワードを受賞。<br />
+著書『実戦で役立つ C#プログラミングのイディオム/定石&パターン』『新・<wbr/>標準プログラマーズライブラリ なるほどなっとくC#入門』など。</p></aside><section id="sample"><h2>サンプル</h2><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/9784297122652-01.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/thumb/TH400_9784297122652-01.jpg,https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/9784297122652-01.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/9784297122652-02.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/thumb/TH400_9784297122652-02.jpg,https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/9784297122652-02.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/9784297122652-03.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/thumb/TH400_9784297122652-03.jpg,https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/9784297122652-03.jpg" width="400" height="533" alt="sample"/></a></section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="42770">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>Chapter 1　基本文法</h3>
+<ul class="toc">
+
+<li>001　様々な型のローカル変数を宣言したい</li>
+<li>002　constキーワードで定数を利用したい</li>
+<li>003　文字列リテラルで改行コードやタブコードを記述したい</li>
+<li>004　逐語的リテラル文字列を利用したい</li>
+<li>005　文字列補間を使い文字列を整形したい</li>
+<li>006　if文で条件分岐処理を書きたい</li>
+<li>007　if文で多分岐処理を書きたい</li>
+<li>008　switch文で多分岐処理を書きたい</li>
+<li>009　AND ORなどの条件論理演算をしたい</li>
+<li>010　条件に応じて値を変えたい（条件演算子?:）</li>
+<li>011　ある値を他の型に型変換（キャスト）したい</li>
+<li>012　for，while，do-while文で繰り返し処理を記述したい</li>
+<li>013　foreachでコレクションの要素を順に処理したい</li>
+<li>014　繰り返しの途中で処理をスキップし次の繰り返しに移りたい</li>
+<li>015　繰り返し処理を中断したい</li>
+
+
+<li></ul>
+<h3>Chapter 2　数値演算</h3>
+<ul class="toc">
+
+<li>016　数値の加減乗除および剰余を求めたい</li>
+<li>017　インクリメント演算子（++），デクリメント演算子（--）を使いたい</li>
+<li>018　intやdoubleの最小値，最大値を求めたい</li>
+<li>019　絶対値を求めたい</li>
+<li>020　べき乗を求めたい</li>
+<li>021　切り捨て，切り上げをしたい</li>
+<li>022　指定した位置で切り捨て，切り上げをしたい</li>
+<li>023　四捨五入したい</li>
+<li>024　数値演算時のオーバーフローを検知したい</li>
+<li>025　ふたつの浮動小数点数が等しいか比較したい</li>
+<li>026　ランダムな値を生成したい</li>
+<li>027　ビット演算をしたい</li>
+<li>028　Nビット目をOn/Offしたい</li>
+<li>029　Nビット目の状態を調べたい</li>
+
+
+<li></ul>
+<h3>Chapter 3　文字列処理</h3>
+<ul class="toc">
+
+<li>030　文字列を数値に変換したい</li>
+<li>031　数値を文字列に変換したい</li>
+<li>032　書式を指定して整数を文字列に変換したい</li>
+<li>033　数値を桁数を指定して文字列化したい</li>
+<li>034　文字列がnullまたは空文字列であるか調べたい</li>
+<li>035　文字列の中に指定した部分文字列があるか調べたい</li>
+<li>036　文字列が指定した文字列で開始/終了しているかを調べたい</li>
+<li>037　ふたつの文字列の先頭N文字が一致しているかを調べたい</li>
+<li>038　大文字小文字を区別せずにふたつの文字列を比較したい</li>
+<li>039　文字列の両端にある空白を取り除きたい</li>
+<li>040　文字列の中で指定した部分文字列が最初に現れる位置を求めたい</li>
+<li>041　文字列から部分文字列を取得したい</li>
+<li>042　文字列から指定した範囲の文字を取り除きたい</li>
+<li>043　文字列の一部を別の文字列に置き換えたい</li>
+<li>044　指定した位置に文字列を挿入したい</li>
+<li>045　文字列を大文字あるいは小文字に変換したい</li>
+<li>046　文字列の中の各文字を1文字ずつ操作したい</li>
+<li>047　指定した文字数になるまで文字列の先頭に空白を埋め込みたい</li>
+<li>048　文字列を指定した区切り文字で分割したい</li>
+<li>049　StringBuilderを使い複数の文字列を高速に連結したい</li>
+<li>050　StringBuilderを使い文字列の置換処理をしたい</li>
+<li>051　文字列補間内でエスケープ文字を無効にしたい</li>
+<li>052　コレクションの要素を指定した区切り文字で連結したい</li>
+<li>053　文字列と文字配列を相互変換したい</li>
+<li>054　文字列とbyte配列を相互変換したい</li>
+<li>055　サロゲートペア文字に対応した文字列処理を行いたい</li>
+<li>056　カルチャに依存しない文字列比較を行いたい</li>
+
+
+<li></ul>
+<h3>Chapter 4　日付時刻処理</h3>
+<ul class="toc">
+
+<li>057　本日の日付や現在の時刻を取得したい</li>
+<li>058　DateTimeオブジェクトから年月日時分秒ミリ秒を取り出したい</li>
+<li>059　曜日を取得したい</li>
+<li>060　N日後，N日前を求めたい</li>
+<li>061　Nか月後，Nか月前を求めたい</li>
+<li>062　ふたつの日時を比較したい</li>
+<li>063　うるう年かどうか調べたい</li>
+<li>064　1月1日からの年間積算日を求めたい</li>
+<li>065　指定した月の月末日を求めたい</li>
+<li>066　ふたつの日時の差を求めたい</li>
+<li>067　日付文字列をDateTime型に変換したい</li>
+<li>068　日付，時刻を様々な書式で文字列化したい</li>
+<li>069　和暦の元号と年を求めたい</li>
+<li>070　元号を表す序数から元号（文字列）を求めたい</li>
+<li>071　日付を和暦表示したい</li>
+<li>072　カルチャを指定して日時を文字列化したい</li>
+
+
+<li></ul>
+<h3>Chapter 5　コレクション</h3>
+<ul class="toc">
+
+<li>073　配列を利用したい</li>
+<li>074　コレクションの要素を順に取り出したい</li>
+<li>075　配列の要素を同じ値で埋めたい</li>
+<li>076　配列の順序を逆順にしたい</li>
+<li>077　配列の順序を昇順に並べ替えたい</li>
+<li>078　Comparison&lt;T&gt;を使用して配列を並べ替えたい</li>
+<li>079　2次元配列を使いたい</li>
+<li>080　ジャグ配列を使いたい</li>
+<li>081　List&lt;T&gt;を使いたい</li>
+<li>082　List&lt;T&gt;を宣言と同時に初期化したい</li>
+<li>083　List&lt;T&gt;に複数の要素を一度に追加したい</li>
+<li>084　List&lt;T&gt;から条件に一致した要素を削除したい</li>
+<li>085　List&lt;T&gt;の要素の順序を反転させたい</li>
+<li>086　List&lt;T&gt;の要素を昇順に並べ替えたい</li>
+<li>087　Comparison&lt;T&gt;を使用してList&lt;T&gt;を並べ替えたい</li>
+<li>088　List&lt;T&gt;内を高速にサーチしたい</li>
+<li>089　ForEachメソッドですべての要素を順に処理したい</li>
+<li>090　List&lt;T&gt;を読み取り専用にしたい</li>
+<li>091　Dictionary&lt;TKey,TValue&gt;を利用したい</li>
+<li>092　Dictionary&lt;TKey,TValue&gt;内のすべてのキーを参照したい</li>
+<li>093　HashSet&lt;T&gt;を利用したい</li>
+<li>094　HashSet&lt;T&gt;で集合演算を行いたい</li>
+<li>095　Stack&lt;T&gt;を利用したい</li>
+<li>096　Queue&lt;T&gt;を利用したい</li>
+
+
+<li></ul>
+<h3>Chapter 6　クラスと構造体の基礎</h3>
+<ul class="toc">
+
+<li>097　クラスを定義したい</li>
+<li>098　プロパティを定義したい</li>
+<li>099　読み取り専用プロパティを定義したい</li>
+<li>100　プロパティに初期値を設定したい</li>
+<li>101　バッキングフィールドを利用したプロパティを定義したい</li>
+<li>102　メソッドを定義したい</li>
+<li>103　同名のメソッドを複数定義（オーバーロード）したい</li>
+<li>104　可変長引数を持つメソッドを定義したい</li>
+<li>105　メソッドを式形式で簡潔に書きたい</li>
+<li>106　コンストラクターを定義したい</li>
+<li>107　複数のコンストラクターを定義したい</li>
+<li>108　クラスを継承したい</li>
+<li>109　静的クラスを定義したい</li>
+<li>110　構造体を定義したい</li>
+<li>111　匿名型を使いたい</li>
+<li>112　オブジェクトを複製したい</li>
+
+
+<li></ul>
+<h3>Chapter 7　列挙型</h3>
+<ul class="toc">
+
+<li>113　列挙型を定義したい</li>
+<li>114　列挙型に定義されている値をすべて列挙したい</li>
+<li>115　列挙型と数値を相互に変換したい</li>
+<li>116　列挙型と文字列を相互に変換したい</li>
+<li>117　指定した値が列挙型で定義されているか判断したい</li>
+<li>118　Flags属性で列挙型をビットフラグとして扱いたい</li>
+
+
+<li></ul>
+<h3>Chapter 8　nullを扱う</h3>
+<ul class="toc">
+
+<li>119　null許容値型を利用したい</li>
+<li>120　null合体演算子でnullのときだけ別の値にしたい</li>
+<li>121　null条件演算子でnullチェックを省略したい</li>
+<li>122　null条件演算子とnull合体演算子を同時に使いたい</li>
+<li>123　null合体割り当て演算子でnullのときに値を変更したい</li>
+<li>124　null許容参照型を利用したい</li>
+
+
+<li></ul>
+<h3>Chapter 9　LINQ</h3>
+<ul class="toc">
+
+<li>125　条件に該当する要素だけ取得したい（Where）</li>
+<li>126　クエリの結果を新しい型に変換したい（Select）</li>
+<li>127　ある位置までの要素を取得したい（Take/TakeWhile）</li>
+<li>128　ある位置まで要素をスキップしたい（Skip/SkipWhile）</li>
+<li>129　最初の要素を取得したい（First/FirstOrDefault）</li>
+<li>130　最後の要素を取得したい（Last/LastOrDefault）</li>
+<li>131　指定した位置の要素を取得したい（ElementAt）</li>
+<li>132　重複する値を取り除きたい（Distinct）</li>
+<li>133　シーケンスの要素の順序を反転したい（Reverse）</li>
+<li>134　データを並べ替えたい（OrderBy/OrderByDescending）</li>
+<li>135　特定の型だけを取得したい（OfType）</li>
+<li>136　シーケンスの先頭/末尾に要素を追加したい（Prepend/Append）</li>
+<li>137　シーケンス内の要素数を求めたい（Count）</li>
+<li>138　合計を求めたい（Sum）</li>
+<li>139　最小値，最大値を求めたい（Min/Max）</li>
+<li>140　平均値を求めたい（Average）</li>
+<li>141　すべての要素が条件を満たしているかどうかを調べたい（All）</li>
+<li>142　いずれかの要素が条件を満たしているかどうかを調べたい（Any）</li>
+<li>143　指定した要素がシーケンスに含まれているか調べたい（Contains）</li>
+<li>144　シーケンスを配列やList&lt;T&gt;に変換したい（ToArray/ToList）</li>
+<li>145　ディクショナリに変換したい（ToDictionary）</li>
+<li>146　HashSet&lt;T&gt;に変換したい（ToHashSet）</li>
+<li>147　指定したキーでグルーピングしてILookup&lt;K,E&gt;に変換したい</li>
+<li>148　和集合を求めたい（Union）</li>
+<li>149　積集合を求めたい（Intersect）</li>
+<li>150　差集合を求めたい（Except）</li>
+<li>151　指定したキーに基づいて結果をグループ化したい（GroupBy）</li>
+<li>152　関連のあるふたつのシーケンスをひとつにまとめたい（Join）</li>
+<li>153　ふたつのシーケンスの要素を関連付けその結果をグループ化したい（GroupJoin）</li>
+<li>154　階層構造になったオブジェクトのシーケンスを平坦化したい（SelectMany）</li>
+<li>155　ふたつのシーケンスを連結したい（Concat）</li>
+<li>156　ふたつのシーケンスの対になる要素をタプルのシーケンスに変換したい（Zip）</li>
+<li>157　ふたつのシーケンスが等しいかを調べたい（SequenceEqual）</li>
+<li>158　指定した範囲の数値コレクションを生成したい（Range）</li>
+<li>159　指定した値を繰り返すシーケンスを生成したい（Repeat）</li>
+<li>160　特殊な集計処理を行いたい（Aggregate）</li>
+<li>161　複数のLINQメソッドを連結させたい</li>
+<li>162　LINQで外部結合を行いたい</li>
+
+
+<li></ul>
+<h3>Chapter 10　例外処理と後処理</h3>
+<ul class="toc">
+
+<li>163　例外処理を記述したい</li>
+<li>164　複数の例外に対応したい</li>
+<li>165　例外情報にアクセスしたい</li>
+<li>166　例外を発生させたい</li>
+<li>167　例外を再スローしたい</li>
+<li>168　例外オブジェクトに独自のデータを追加したい</li>
+<li>169　InnerExceptionプロパティを再帰的にたどりたい</li>
+<li>170　独自例外を定義したい</li>
+<li>171　例外処理で例外フィルターを使い対象例外を絞りたい</li>
+<li>172　条件演算子やnull合体演算子とともに例外を発生させたい</li>
+<li>173　try-finallyで確実に後処理をしたい</li>
+<li>174　using文で確実にDisposeメソッドを呼び出したい</li>
+<li>175　using宣言を使い，より簡単にusing文を書きたい</li>
+
+
+<li></ul>
+<h3>Chapter 11　より高度なクラスの定義</h3>
+<ul class="toc">
+
+<li>176　ラムダ式を受け取るメソッドを定義したい</li>
+<li>177　インデクサを定義したい</li>
+<li>178　イベントを定義し利用したい</li>
+<li>179　拡張メソッドでクラスを拡張したい</li>
+<li>180　LINQ to Objectsに対応した拡張メソッドを定義したい</li>
+<li>181　演算子をオーバーロードしたい</li>
+<li>182　独自の型でキャスト式を利用可能にしたい</li>
+<li>183　動的にプロパティを追加できるdynamicクラスを作りたい</li>
+<li>184　レコード型で安全性を高めたい</li>
+
+
+<li></ul>
+<h3>Chapter 12　ジェネリックとインターフェイス</h3>
+<ul class="toc">
+
+
+<li>185　ジェネリッククラスを定義したい</li>
+<li>186　ジェネリックメソッドを定義したい</li>
+<li>187　インターフェイスを定義したい</li>
+<li>188　インターフェイスに既定の動作を定義したい</li>
+<li>189　既定のインターフェイスメソッドを上書きしたい</li>
+<li>190　yield構文を使いIEnumerable&lt;T&gt;を返すメソッドを定義したい</li>
+<li>191　IEquatable&lt;T&gt;インターフェイスを持つクラスを定義したい</li>
+<li>192　IEqualityComparer&lt;T&gt;インターフェイスを実装したい</li>
+<li>193　IComparable&lt;T&gt;インターフェイスを実装し大小比較したい</li>
+<li>194　IComparer&lt;T&gt;インターフェイスを実装してソートしたい</li>
+<li>195　IDisposableインターフェイスを実装したい</li>
+<li>196　オブザーバーデザインパターンを実装したい</li>
+
+
+<li></ul>
+<h3>Chapter 13　よりスマートにコードを書く</h3>
+<ul class="toc">
+
+<li>197　最上位レベルステートメントを使いたい</li>
+<li>198　クラス名を省略してメソッドを呼び出したい</li>
+<li>199　nameof式でシンボルの名前の間違いをなくしたい</li>
+<li>200　defaultキーワードでオブジェクトの既定値を指定したい</li>
+<li>201　new式でインスタンス生成のコードを簡略化したい</li>
+<li>202　out変数で引数宣言を簡略化したい</li>
+<li>203　メソッド呼び出しで名前付き引数を使用したい</li>
+<li>204　switch式を利用したい</li>
+<li>205　switch文のcaseラベルに条件を付加したい</li>
+<li>206　is演算子でパターンマッチングを使いたい</li>
+<li>207　ローカル関数を定義したい</li>
+<li>208　プロパティのgetアクセサー，setアクセサーを式形式で書きたい</li>
+<li>209　init専用セッターでクラスの安全性を高めたい</li>
+<li>210　メソッドでタプルを利用しふたつの値を返したい</li>
+<li>211　配列でより高度なインデックス操作をしたい</li>
+<li>212　dynamic型を使いたい</li>
+
+
+<li></ul>
+<h3>Chapter 14　並列処理と非同期処理</h3>
+<ul class="toc">
+
+<li>213　BackgroundWorkerクラスを利用してバックグラウンドで処理を動かしたい</li>
+<li>214　awaitを使用して非同期メソッドを呼び出したい</li>
+<li>215　同期メソッドを非同期メソッドに変更したい</li>
+<li>216　Taskクラスで起動したタスクを最大N秒まで待ちたい</li>
+<li>217　指定した時間だけ処理を待機させたい</li>
+<li>218　Taskをキャンセルしたい</li>
+<li>219　Parallelクラスを使用して並列処理をさせたい</li>
+<li>220　PLINQで並列処理をしたい</li>
+<li>221　PLINQで並列処理の結果の順序を制御したい</li>
+<li>222　PLINQで並列処理の結果に対しても並列処理したい</li>
+<li>223　PLINQで例外処理を記述したい</li>
+<li>224　複数のTaskを並列で走らせたい</li>
+<li>225　lock構文で安全に並列処理をしたい</li>
+<li>226　フィールドをvolatile宣言して安全に並列処理をしたい</li>
+<li>227　Interlockedクラスを使用して安全に並列処理をしたい</li>
+<li>228　並列処理で安全にコレクションにアクセスしたい</li>
+<li>229　Progress&lt;T&gt;で進行状況を表示したい</li>
+
+
+<li></ul>
+<h3>Chapter 15　リフレクション</h3>
+<ul class="toc">
+
+<li>230　オブジェクトの型情報を取得したい</li>
+<li>231　リフレクションを利用しプロパティの値を取得したい</li>
+<li>232　リフレクションを利用しプロパティに値を設定したい</li>
+<li>233　指定した型のプロパティの一覧を取得したい</li>
+<li>234　リフレクションを利用しメソッドを呼び出したい</li>
+<li>235　指定した型のメソッドの一覧を取得したい</li>
+<li>236　コンストラクターを動的に呼び出したい</li>
+<li>237　コンストラクターの一覧を得たい</li>
+<li>238　現在のクラス名，メソッド名を取得したい</li>
+<li>239　実行時にオブジェクトの型の種類を調べたい</li>
+<li>240　プロパティに指定した属性が付加されているか調べたい</li>
+<li>241　プロパティに付加された属性の値を取得したい</li>
+<li>242　メソッドに付加された属性を取得したい</li>
+<li>243　列挙型のフィールドに付加された属性を取得したい</li>
+<li>244　クラスに付加された属性を取得したい</li>
+<li>245　オブジェクトのプロパティ名と値をDictionary&lt;TKey,TValue&gt;に変換したい</li>
+<li>246　文字列プロパティの値がnullならすべて空文字列にしたい</li>
+<li>247　独自の属性を定義したい</li>
+
+
+<li></ul>
+<h3>Chapter 16　正規表現</h3>
+<ul class="toc">
+
+<li>248　文字列が指定したパターンと一致するか調べたい</li>
+<li>249　文字列の中からパターンに一致する箇所をひとつ取り出したい</li>
+<li>250　文字列の中からパターンに一致する箇所をすべて取り出したい</li>
+<li>251　正規表現を使い高度な置換処理をしたい</li>
+<li>252　文字列を指定したパターンで分割したい</li>
+<li>253　大文字小文字を区別せずマッチさせたい</li>
+<li>254　複数行モードで正規表現を使いたい</li>
+
+
+<li></ul>
+<h3>Chapter 17　ファイルとディレクトリ</h3>
+<ul class="toc">
+
+<li>255　ファイルパスを組み立てたい</li>
+<li>256　パス名を構成要素に分割したい</li>
+<li>257　相対ファイルパスを絶対パスに変換したい</li>
+<li>258　ファイルを操作したい</li>
+<li>259　ファイルの拡張子を変更したい</li>
+<li>260　ファイルサイズを取得したい</li>
+<li>261　ファイルの更新日時を取得/更新したい</li>
+<li>262　ファイルの読み取り専用属性を取得または設定したい</li>
+<li>263　ディレクトリを操作したい</li>
+<li>264　指定したディレクトリにあるファイル一覧を得たい</li>
+<li>265　指定したディレクトリにあるディレクトリ一覧を得たい</li>
+<li>266　現在の作業ディレクトリを取得したい</li>
+<li>267　一時的に利用するファイルを作成したい</li>
+<li>268　特殊なフォルダ名を取得したい</li>
+<li>269　テキストファイルを読み込みたい</li>
+<li>270　テキストファイルを作成したい</li>
+<li>271　テキストファイルに追記したい</li>
+<li>272　Shift-JISのファイルを扱いたい</li>
+<li>273　バイナリファイルを読み込みたい</li>
+<li>274　byte配列のデータをファイルに出力したい</li>
+<li>275　文字列をStreamとして扱いたい</li>
+
+
+<li></ul>
+<h3>Chapter 18　Zipファイル</h3>
+<ul class="toc">
+
+<li>276　ディレクトリからZipアーカイブを作成したい</li>
+<li>277　Zipアーカイブに新しいファイルを追記したい</li>
+<li>278　Zipアーカイブからファイルを削除したい</li>
+<li>279　Zipアーカイブファイルに格納されているファイルの一覧を取得したい</li>
+<li>280　Zipアーカイブ内のファイルをすべて抽出したい</li>
+<li>281　Zipアーカイブから指定したファイルを抽出したい</li>
+
+
+<li></ul>
+<h3>Chapter 19　ロギング</h3>
+<ul class="toc">
+
+<li>282　ILoggerでログを出力したい</li>
+<li>283　appsettings.jsonでログレベルを設定したい</li>
+<li>284　コードでログレベルを設定したい</li>
+<li>285　ログ出力でメッセージテンプレートを使用したい</li>
+<li>286　NLogを使いたい</li>
+<li>287　Log4Netを使いたい</li>
+<li>288　ZLoggerを使いたい</li>
+
+
+<li></ul>
+<h3>Chapter 20　Entity Framework Core</h3>
+<ul class="toc">
+
+<li>289　Entity Framework Coreの利用を開始したい</li>
+<li>290　Entity Framework Coreでモデルを定義したい</li>
+<li>291　データベーステーブル間のリレーションを定義したい</li>
+<li>292　属性を使いエンティティクラスのプロパティに制約を設定したい</li>
+<li>293　エンティティクラスにデータベーステーブルにマッピングされないプロパティを定義したい</li>
+<li>294　データベースのテーブル名，カラム名を明示的に指定したい</li>
+<li>295　エンティティクラスのプロパティで主キーを明示したい</li>
+<li>296　データベーステーブルのカラムにインデックスを作成したい</li>
+<li>297　列挙型の値を文字列としてデータベースに格納したい</li>
+<li>298　データベーステーブルに行を挿入したい</li>
+<li>299　データベーステーブルから条件に合致した行を取得したい</li>
+<li>300　データベースから関連するテーブルのデータを取得したい</li>
+<li>301　データベーステーブルの行を更新したい</li>
+<li>302　データベーステーブルから行を削除したい</li>
+<li>303　データベースからデータを読み込まずに更新したい</li>
+<li>304　EF Coreで生のSQLを発行したい</li>
+<li>305　EF Coreでトランザクションを制御したい</li>
+<li>306　EF Coreで更新されないシナリオでパフォーマンスを向上させたい</li>
+<li>307　EF Coreでオプティミスティック同時実行制御を行いたい</li>
+<li>308　EF Coreでコマンドタイムアウト値を設定したい</li>
+<li>309　EF Coreが出力するSQLを確認したい</li>
+
+
+<li></ul>
+<h3>Chapter 21　ネットワーク</h3>
+<ul class="toc">
+
+<li>310　HTMLをエンコード・デコードしたい</li>
+<li>311　URLをエンコード・デコードしたい</li>
+<li>312　JSONシリアライズ，デシリアライズしたい</li>
+<li>313　パラメーター付きクエリ文字列を組み立てたい</li>
+<li>314　URLで指定したWebページ（HTML）を取得したい</li>
+<li>315　Webサーバーからファイルをダウンロードしたい</li>
+<li>316　指定したURLからJSONデータを取得したい</li>
+<li>317　HttpClientでContent-typeを指定したい</li>
+<li>318　HttpClientでリクエストヘッダーにUser-Agentを設定したい</li>
+<li>319　HttpClientでHTTPステータスコードを確認したい</li>
+<li>320　HTTPメソッドを指定してAPIを呼び出したい</li>
+<li>321　HTTP POSTでフォームデータを送信したい</li>
+<li>322　HTTP POSTでJSONデータを送信したい</li>
+<li>323　HttpClientFactoryで生成したHttpClientを利用したい</li>
+<li>324　Http通信のログを出力したい</li>
+<li>325　メールを送信したい</li>
+<li>326　添付ファイル付きメールを送信したい</li>
+
+
+<li></ul>
+<h3>Chapter 22　暗号化</h3>
+<ul class="toc">
+
+<li>327　共有キー暗号方式の暗号化と復号のためのキーを生成したい</li>
+<li>328　共有キー暗号方式で文字列を暗号化したい</li>
+<li>329　共有キー暗号方式で暗号化された文字列を復号したい</li>
+<li>330　共有キー暗号方式でファイルを暗号化したい</li>
+<li>331　共有キー暗号方式で暗号化されたファイルを復号したい</li>
+<li>332　公開キー暗号方式で利用する公開キーと秘密キーを生成したい</li>
+<li>333　公開キー暗号方式の秘密キーをキーコンテナに格納したい</li>
+<li>334　公開キー暗号方式を使って暗号化したい</li>
+<li>335　公開キー暗号方式を使って復号したい</li>
+<li>336　RSA公開キーファイル（PKCS＃1）を使って暗号化したい</li>
+<li>337　RSA秘密キーファイル（PKCS＃1）を使って復号したい</li>
+<li>338　データのハッシュ値を求めたい</li>
+<li>339　ハッシュ値を使いデータの検証を行いたい</li>
+<li>340　デジタル署名をしたい</li>
+<li>341　デジタル署名したデータを検証したい</li>
+
+
+<li></ul>
+<h3>Chapter 23　ExcelとWord</h3>
+<ul class="toc">
+
+<li>342　［Excel］NPOIを使ってExcelファイルを作成したい</li>
+<li>343　［Excel］NPOIを使ってセルに値を設定したい</li>
+<li>344　［Excel］NPOIを使って特定のセルの値を取得したい</li>
+<li>345　［Excel］NPOIを使ってすべてのセルの値を取得したい</li>
+<li>346　［Excel］NPOIを使ってセルの値を変更したい</li>
+<li>347　［Excel］NPOIを使ってセルにスタイルを設定したい</li>
+<li>348　［Word］OpenXMLでWord文書を新規作成したい</li>
+<li>349　［Word］OpenXMLで段落の位置揃えをしたい</li>
+<li>350　［Word］OpenXMLで既存文書に段落を挿入したい</li>
+<li>351　［Word］OpenXMLで段落にスタイルを適用したい</li>
+
+
+<li></ul>
+<h3>Chapter 24　単体テスト</h3>
+<ul class="toc">
+
+<li>352　xUnit.netを使いたい</li>
+<li>353　メソッドが期待した値を返してくるかテストしたい</li>
+<li>354　指定した範囲に収まっているかテストしたい</li>
+<li>355　指定した例外が発生するかテストしたい</li>
+<li>356　テストの前処理を記述したい</li>
+<li>357　InlineData属性でテストメソッドに渡すパラメーターの値を指定したい</li>
+<li>358　Member属性でテストメソッドに渡すパラメーターの値を指定したい</li>
+<li>359　単体テストでデバッグメッセージを出力したい</li>
+<li>360　［Moq］Moqの利用を開始したい</li>
+<li>361　［Moq］Mockオブジェクトにプロパティを定義したい</li>
+<li>362　［Moq］Mockオブジェクトにメソッドを定義したい</li>
+<li>363　［Moq］Mockオブジェクトに例外を発生させるメソッドを設定したい</li>
+<li>364　［Moq］Mockオブジェクトでメソッドが呼び出された際の処理を記述したい</li>
+<li>365　［xUnit］［Moq］Mockを使って単体テストを行いたい</li>
+<li>366　［xUnit］［Moq］MockをDIして単体テストを行いたい</li>
+
+
+<li></ul>
+<h3>Chapter 25　落穂拾い</h3>
+<ul class="toc">
+
+<li>367　byte配列とBase64文字列を相互変換したい</li>
+<li>368　文字列をBase64でエンコード・デコードしたい</li>
+<li>369　byte配列を16進表記したい</li>
+<li>370　どのメソッドから呼び出されたのか知りたい</li>
+<li>371　OSの情報を取得したい</li>
+<li>372　論理プロセッサの数を調べたい</li>
+<li>373　環境変数を取得したい</li>
+<li>374　現在のプロセス環境ブロックで環境変数をセットしたい</li>
+<li>375　GUIDを生成したい</li>
+<li>376　指定した間隔である処理を繰り返し動かしたい</li>
+<li>377　ある時点からの経過時間を求めたい</li>
+<li>378　プロセスを起動したい</li>
+<li>379　起動したプロセスが終了するまで待ちたい</li>
+<li>380　起動したプロセスの標準出力の内容を取得したい</li>
+<li>381　標準エラー出力にメッセージを出力したい</li>
+<li>382　VisualStudioのデバッグウィンドウにログを出力したい</li>
+<li>383　コンソールアプリケーションで汎用ホストを利用したい</li>
+<li>384　appsettings.jsonから構成データの値を取得したい</li>
+<li>385　構成データを環境により切り替えたい</li>
+</ul>
+
+
+
+<ul class="toc">
+
+<li>参考文献</li>
+<li>Index</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p><div align="right">（2021年8月5日更新）</div></p>
+<p>本書のサンプルファイルを，<wbr/>下記リンクからダウンロードすることができます。</p>
+
+<p>ダウンロードしていただくファイルは，<wbr/>ZIP形式の圧縮ファイルです。展開してお使いください。ダウンロードにミスがあると正しく展開できませんので，<wbr/>よくお確かめください。</p>
+
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12265-2/download/CSharp_sample.zip">サンプルファイル</a></dd>
+</dl>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2021 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2021\/978-4-297-12266-9","path":"\/dp\/ebook\/2021\/978-4-297-12266-9","targetId":"978-4-297-12266-9","parent":"\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;gtag('event','JSError',{'evetn_category':'Error','event_label':mes});};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

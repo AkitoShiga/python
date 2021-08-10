@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Software Design 2021年8月号 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="第1特集もう怖くないReact3つの壁とその越え方JavaScriptのUIライブラリ「React」は，とくに「シングルページアプリケーション（SPA）」を実現するツールとして注目されていますが，入門，使いこなしのためには技術的なハードルも存在します。本特集ではReactを触り始めた，これから挑戦する人を対象に，Reactを使った開発で直面しがちな問題を「3つの壁」にたとえ，その乗り越え方を解説します。第1の壁は，コンポーネントといったReactの基本コンセプトと少し癖のある文法（JSX）にどのように慣れれば良いか。第2の壁は，刻々と変わるページの中でデータをどのように管理すれば良いのか。第3の壁は，アプリのパフォーマンスの問題。入力のたびにもたつくWebページを避けるにはどのような施策が必要か。3つの壁を乗り越え，Reactへの苦手意識を克服してください。第2特集GraphQLでかなえる効率的なデータ通信新進気鋭のWeb API用クエリ言語の全体像GraphQLとは，Web API上で動くクエリ言語とエンジンの仕様です。現在主流であるREST APIには，シンプルで使いやすい設計ができるというメリットがある一方，昨今のWebアプリケーション開発で大きな問題となる，オーバーフェッチやアンダーフェッチが発生するという課題があります。そこで，「単一のエンドポイントで必要な情報を取ってくる」という特徴を持つGraphQLが広がりを見せています。本特集では，GraphQLを構成する「型システム」「クエリ言語」「実行エンジン」について，その特徴や実装方法を紹介します。より迅速に，より柔軟なWebアプリケーションの開発を目指してみませんか？短期連載GitOpsで作るKubernetesのCI/CD環境［2］GitOpsの構成を知ろう本連載ではKubernetes環境向けのCI/CD手法であるGitOpsについて解説します。GitOpsがどのようなものなのかという基本的な部分から，実際に利用するツールやセットアップ方法，さらに実践的なポイントにわたって紹介します。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0422.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0425.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="Software Design 2021年8月号 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="第1特集もう怖くないReact3つの壁とその越え方JavaScriptのUIライブラリ「React」は，とくに「シングルページアプリケーション（SPA）」を実現するツールとして注目されていますが，入門，使いこなしのためには技術的なハードルも存在します。本特集ではReactを触り始めた，これから挑戦する人を対象に，Reactを使った開発で直面しがちな問題を「3つの壁」にたとえ，その乗り越え方を解説します。第1の壁は，コンポーネントといったReactの基本コンセプトと少し癖のある文法（JSX）にどのように慣れれば良いか。第2の壁は，刻々と変わるページの中でデータをどのように管理すれば良いのか。第3の壁は，アプリのパフォーマンスの問題。入力のたびにもたつくWebページを避けるにはどのような施策が必要か。3つの壁を乗り越え，Reactへの苦手意識を克服してください。第2特集GraphQLでかなえる効率的なデータ通信新進気鋭のWeb API用クエリ言語の全体像GraphQLとは，Web API上で動くクエリ言語とエンジンの仕様です。現在主流であるREST APIには，シンプルで使いやすい設計ができるというメリットがある一方，昨今のWebアプリケーション開発で大きな問題となる，オーバーフェッチやアンダーフェッチが発生するという課題があります。そこで，「単一のエンドポイントで必要な情報を取ってくる」という特徴を持つGraphQLが広がりを見せています。本特集では，GraphQLを構成する「型システム」「クエリ言語」「実行エンジン」について，その特徴や実装方法を紹介します。より迅速に，より柔軟なWebアプリケーションの開発を目指してみませんか？短期連載GitOpsで作るKubernetesのCI/CD環境［2］GitOpsの構成を知ろう本連載ではKubernetes環境向けのCI/CD手法であるGitOpsについて解説します。GitOpsがどのようなものなのかという基本的な部分から，実際に利用するツールやセットアップ方法，さらに実践的なポイントにわたって紹介します。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2021/978-4-297-11974-4"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-11974-4.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL906V3TN7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DL906V3TN7');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Software Design 2021<wbr>年<wbr>8<wbr>月号</h1><p id="bookSeries">→<a href="/dp/series/Software%20Design">バックナンバー一覧</a></p>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-11974-4.jpg" alt="Software Design 2021年8月号"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    
+    
+    <dt>発売日</dt>
+    <dd><time datetime="2021-07-16">2021年7月16日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2021-07-16">2021年7月16日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/magazine/SD/archive/2021/202108" target="_blank">2021年7月16日に発売された雑誌</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,342円 <a id="pid403287" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">176</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+<dt><span class="name">定期購読（EPUB/PDFセット）</span><span class="buy">年間一括15,138円／毎号1,342円 <a id="pidSubscribe" href="/dp/subscription/SD" class="subscription" title="定期購読を申し込む">定期購読を申し込む</a></span></dt><dd>お申し込み画面で選択してください</dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2021/978-4-297-11974-4" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2021/978-4-297-11974-4" data-text="Software Design 2021年8月号 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2021/978-4-297-11974-4" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2021/978-4-297-11974-4" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<h3><span class="category">第1特集</span><br />
+<span class="title">もう怖くないReact</span><br />
+<span class="catch">3つの壁とその越え方</span></h3>
+<p>JavaScriptのUIライブラリ「React」は，<wbr/>とくに「シングルページアプリケーション（SPA）」を実現するツールとして注目されていますが，<wbr/>入門，<wbr/>使いこなしのためには技術的なハードルも存在します。本特集ではReactを触り始めた，<wbr/>これから挑戦する人を対象に，<wbr/>Reactを使った開発で直面しがちな問題を「3つの壁」にたとえ，<wbr/>その乗り越え方を解説します。<br />
+第1の壁は，<wbr/>コンポーネントといったReactの基本コンセプトと少し癖のある文法（JSX）にどのように慣れれば良いか。第2の壁は，<wbr/>刻々と変わるページの中でデータをどのように管理すれば良いのか。第3の壁は，<wbr/>アプリのパフォーマンスの問題。入力のたびにもたつくWebページを避けるにはどのような施策が必要か。3つの壁を乗り越え，<wbr/>Reactへの苦手意識を克服してください。</p>
+
+<h3><span class="category">第2特集</span><br />
+<span class="title">GraphQLでかなえる効率的なデータ通信</span><br />
+<span class="catch">新進気鋭のWeb API用クエリ言語の全体像</span></h3>
+<p>GraphQLとは，<wbr/>Web API上で動くクエリ言語とエンジンの仕様です。<br />
+現在主流であるREST APIには，<wbr/>シンプルで使いやすい設計ができるというメリットがある一方，<wbr/>昨今のWebアプリケーション開発で大きな問題となる，<wbr/>オーバーフェッチやアンダーフェッチが発生するという課題があります。そこで，<wbr/>「単一のエンドポイントで必要な情報を取ってくる」という特徴を持つGraphQLが広がりを見せています。<br />
+本特集では，<wbr/>GraphQLを構成する「型システム」「クエリ言語」「実行エンジン」について，<wbr/>その特徴や実装方法を紹介します。より迅速に，<wbr/>より柔軟なWebアプリケーションの開発を目指してみませんか？</p>
+
+<h3><span class="category">短期連載</span><br />
+<span class="title">GitOpsで作るKubernetesのCI/CD環境</span><br />
+<span class="catch">［2］GitOpsの構成を知ろう</span></h3>
+<p>本連載ではKubernetes環境向けのCI/CD手法であるGitOpsについて解説します。GitOpsがどのようなものなのかという基本的な部分から，<wbr/>実際に利用するツールやセットアップ方法，<wbr/>さらに実践的なポイントにわたって紹介します。</p>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="42817">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3><span class="category">第1特集</span><br /><span class="title">もう怖くないReact</span><br /><span class="catch">3つの壁とその越え方</span></h3>
+<ul class="toc"><li><span class="chapter">第1章</span>：なぜReactが選ばれるのか<br /><span class="catch">仮想DOMと宣言的UIの成果</span><br /><span class="author">&hellip;&hellip; 三木 聡一郎</span></li>
+<li><span class="chapter">第2章</span>：コンポーネントとJSXの壁<br /><span class="catch">Reactアプリを構成する基本要素を確認しよう</span><br /><span class="author">&hellip;&hellip; 三木 聡一郎</span></li>
+<li><span class="chapter">第3章</span>：状態管理と大規模化の壁<br /><span class="catch">アプリの規模ごとに使い分ける3つのアプローチ</span><br /><span class="author">&hellip;&hellip; 森田 勝駿</span></li>
+<li><span class="chapter">第4章</span>：パフォーマンスの壁<br /><span class="catch">描画とファイル読み込みを最適化する</span><br /><span class="author">&hellip;&hellip; 岡島 美咲</span></li></ul>
+<h3><span class="category">第2特集</span><br /><span class="title">GraphQLでかなえる効率的なデータ通信</span><br /><span class="catch">新進気鋭のWeb API用クエリ言語の全体像</span></h3>
+<ul class="toc"><li><span class="author">&hellip;&hellip; 立花 豊</span></li>
+<li><span class="chapter">第1章</span>：<span class="catch">登場背景や解決する課題とは？</span><br />入門 GraphQL</li>
+<li><span class="chapter">第2章</span>：<span class="catch">クライアントにやさしいデータ取得のしくみ</span><br />型システムとクエリ言語</li>
+<li><span class="chapter">第3章</span>：<span class="catch">サーバサイドの処理を体験！</span><br />GraphQL APIの実装</li></ul>
+<h3>一般記事</h3>
+<ul class="toc"><li>［短期連載］GitOpsで作るKubernetesのCI/CD環境<br /><span class="catch">【2】GitOpsの構成を知ろう</span><span class="author">&hellip;&hellip; 伊藤 竜一</span></li></ul>
+<h3>連載</h3>
+
+<ul class="toc"><li>ITエンジニア必須の最新用語解説<br />【152】Terraform 1.0<span class="author">&hellip;&hellip;杉山 貴章</span></li>
+<li>できる！ 自作キーボード工房<br />【3】キーボードキットを組み立ててみよう<span class="author">&hellip;&hellip;サリチル酸</span></li>
+<li>結城浩の再発見の発想法<br />【99】サンドボックス<span class="author">&hellip;&hellip;結城 浩</span></li>
+<li>Raspberry PiでエッジAI<br />【4】Raspberry Piでリアルタイム顔検出<span class="author">&hellip;&hellip;山川 正美</span></li>
+<li>イラストで明解Gitコマンド<br />【6】git rebase<span class="author">&hellip;&hellip;大串 肇</span></li>
+<li>明後日のコンピューティングを知ろう<br />【6】HPCの見える化<span class="author">&hellip;&hellip;松本 直人</span></li>
+<li>分解教室<br />【3】Galaxyの分析で技術力を知る<span class="author">&hellip;&hellip;清水 洋治</span></li>
+<li>ひみつのLinux通信<br />【90】ほめて伸ばす<span class="author">&hellip;&hellip;くつなりょうすけ</span></li>
+<li>【新連載】Pythonモダン化計画<br />【1】Python製のレガシー＆大規模システムをどうリファクタリングするか<span class="author">&hellip;&hellip;金谷 敦志</span></li>
+<li>【新連載】UNIXテキスト処理の極意<br />【1】コマンドラインでテキスト処理をはじめよう<span class="author">&hellip;&hellip;中島 雅弘</span></li>
+<li>はじめての量子プログラミング体験<br />【3】無量大数を超える組み合わせを解く<span class="author">&hellip;&hellip;広田 望，松田 佳希，田中 宗（監修）</span></li>
+<li>“学習する”チームで仕事をする<br />【6】アーキテクチャ設計のためのアクティビティ<span class="author">&hellip;&hellip;広木 大地</span></li>
+<li>チーム開発の視点が変わる アジャイル開発の新常識<br />【9】意外とわかってない？　スクラムマスターの役割<span class="author">&hellip;&hellip;下澤 弓恵，梶原 直人（監修），小林 太一（監修）</span></li>
+<li>【最終回】DevOpsエンジニアのための節約・簡単・時短レシピ<br />【12】インフラの変更を誰もが安全に実行できるようにするためのTips<span class="author">&hellip;&hellip;星川 真麻</span></li>
+<li>パズルで鍛えるアルゴリズム力<br />【12】石取りゲームをとおして，ゲーム解析の考え方を学ぶ<span class="author">&hellip;&hellip;けんちょん（大槻 兼資）</span></li>
+<li>Ansible問題解決マップ<br />【25】Ansible-Lint 5の紹介<span class="author">&hellip;&hellip;山下 祐生</span></li>
+<li>Visual Studio Code快適生活<br />【32】Workspace Trust機能によって提供されるコード実行の安全性について<span class="author">&hellip;&hellip;職業「戸倉彩」</span></li>
+<li>作って学ぶ仮想マシン<br />【2】KVMのしくみを探る<span class="author">&hellip;&hellip;滝澤 照太</span></li>
+<li>systemd詳解<br />【3】unitの状態，unit間の依存関係<span class="author">&hellip;&hellip;森若 和雄</span></li>
+<li>体系的に学ぶDockerネットワークのしくみ<br />【4】Network Namespace（netns）<span class="author">&hellip;&hellip;大隈 峻太郎</span></li>
+<li>Debian Hot Topics<br />【74】Debian 11，Full Freeze前にまさかの足踏み<span class="author">&hellip;&hellip;やまねひでき</span></li>
+<li>Monthly News from jus<br />【118】連載10年間のまとめ① ～勉強会編～<span class="author">&hellip;&hellip;法林 浩之</span></li>
+<li>あなたのスキルは社会に役立つ～エンジニアだからできる社会貢献～<br />【116】デジタル庁によって進む官民連携<span class="author">&hellip;&hellip;関 治之</span></li></ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<h4>P.30　第1特集第3章「状態管理と大規模化の壁」</h4>
+<p><div align="right">（2021年7月14日更新）</div></p>
+<p>本記事で紹介したアプリケーションのサンプルコードを以下からダウンロードできます。サンプルコードの利用方法は，<wbr/>ダウンロードファイル内のREADME.mdを参照してください。</p>
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/magazine/SD/2021/202108/download/redux-example.zip">サンプルコード（redux-example.zip）</a></dd>
+</dl>
+
+　
+
+<p>免責：本サンプルを使用することによって，<wbr/>使用者が受けたあらゆる不利益に対して，<wbr/>原著者および技術評論社はその責任を負いません。</p>
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2021 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2021\/978-4-297-11974-4","path":"\/dp\/ebook\/2021\/978-4-297-11974-4","targetId":"978-4-297-11974-4","parent":"\/dp","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;gtag('event','JSError',{'evetn_category':'Error','event_label':mes});};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

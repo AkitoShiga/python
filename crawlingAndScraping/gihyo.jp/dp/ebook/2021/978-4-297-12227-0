@@ -1,0 +1,366 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>機械学習を解釈する技術 〜予測力と説明力を両立する実践テクニック | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="機械学習の研究開発が急速な勢いで進んでいます。理論研究はもちろん，機械学習手法が実装されたオープンソースのパッケージ開発も進み，それらを実務で利用するためのノウハウも蓄積されてきています。結果として，機械学習をはじめたばかりの入門者でも比較的高い精度の予測モデルを構築できるようになりました。Deep Learning, Gradient Boosting Decision Tree, Random Forestなどの機械学習モデルは高い予測精度を誇りますが，モデルの解釈性が低いという欠点があります。これらの複雑なブラックボックスモデルにおいて，モデルがなぜそのような予測を行っているのかを知ることは困難ですが，データ分析者自身がモデルの振る舞いを把握し，説明責任を果たすことを実務においては頻繁に求められます。本書では，このような予測精度と解釈性のトレードオフを克服するための手法について，実務において特に有用と考えるものを厳選して紹介します。本書の構成は以下になります。1章: 機械学習の解釈性とは2章: 線形回帰モデルを通して「解釈性」を理解する3章: 特徴量の重要度を知る〜Permutation Feature Importance〜4章: 特徴量と予測値の関係を知る〜Partial Dependence〜5章: インスタンスごとの異質性を捉える〜Individual Conditional Expectation〜6章: 予測の理由を考える〜SHapley Additive exPlanations〜付録A: R による分析例~ tidymodelsとDALEXで機械学習モデルを解釈する~付録B: 機械学習の解釈手法で線形回帰モデルを解釈する2章では極めて高い解釈性を誇る線形回帰モデルを通して，予測モデルに求められる解釈性について説明します。以降の4つの章では，それらの解釈性をブラックボックスモデルに与えるPFI, PD, ICE, SHAPと呼ばれる手法について解説します。本書は機械学習の解釈手法を実用して頂くことを目的としています。Pythonでゼロから手法を実装することを通じて解釈手法のアルゴリズムを理解し，実データの分析を通じて解釈手法の勘所を押さえて頂きます。機械学習の解釈手法は強力な反面，使い方を誤ると間違った結論を導いてしまう危険もあります。本書では解釈手法を実用する際の注意点についても丁寧に触れています。"/>
+  <meta name="keywords" content="森下光之助電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0422.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0425.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="機械学習を解釈する技術 〜予測力と説明力を両立する実践テクニック | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="機械学習の研究開発が急速な勢いで進んでいます。理論研究はもちろん，機械学習手法が実装されたオープンソースのパッケージ開発も進み，それらを実務で利用するためのノウハウも蓄積されてきています。結果として，機械学習をはじめたばかりの入門者でも比較的高い精度の予測モデルを構築できるようになりました。Deep Learning, Gradient Boosting Decision Tree, Random Forestなどの機械学習モデルは高い予測精度を誇りますが，モデルの解釈性が低いという欠点があります。これらの複雑なブラックボックスモデルにおいて，モデルがなぜそのような予測を行っているのかを知ることは困難ですが，データ分析者自身がモデルの振る舞いを把握し，説明責任を果たすことを実務においては頻繁に求められます。本書では，このような予測精度と解釈性のトレードオフを克服するための手法について，実務において特に有用と考えるものを厳選して紹介します。本書の構成は以下になります。1章: 機械学習の解釈性とは2章: 線形回帰モデルを通して「解釈性」を理解する3章: 特徴量の重要度を知る〜Permutation Feature Importance〜4章: 特徴量と予測値の関係を知る〜Partial Dependence〜5章: インスタンスごとの異質性を捉える〜Individual Conditional Expectation〜6章: 予測の理由を考える〜SHapley Additive exPlanations〜付録A: R による分析例~ tidymodelsとDALEXで機械学習モデルを解釈する~付録B: 機械学習の解釈手法で線形回帰モデルを解釈する2章では極めて高い解釈性を誇る線形回帰モデルを通して，予測モデルに求められる解釈性について説明します。以降の4つの章では，それらの解釈性をブラックボックスモデルに与えるPFI, PD, ICE, SHAPと呼ばれる手法について解説します。本書は機械学習の解釈手法を実用して頂くことを目的としています。Pythonでゼロから手法を実装することを通じて解釈手法のアルゴリズムを理解し，実データの分析を通じて解釈手法の勘所を押さえて頂きます。機械学習の解釈手法は強力な反面，使い方を誤ると間違った結論を導いてしまう危険もあります。本書では解釈手法を実用する際の注意点についても丁寧に触れています。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2021/978-4-297-12227-0"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12227-0.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL906V3TN7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DL906V3TN7');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">機械学習を解釈する技術<br><span class="sub">〜予測力と説明力を両立する実践テクニック</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12227-0.jpg" alt="機械学習を解釈する技術 〜予測力と説明力を両立する実践テクニック"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">森下光之助　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2021-07-30">2021年7月30日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2021-07-30">2021年7月30日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2021/978-4-297-12226-3" target="_blank">2021年8月4日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">2,680円 <a id="pid403299" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">256</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2021/978-4-297-12227-0" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2021/978-4-297-12227-0" data-text="機械学習を解釈する技術 〜予測力と説明力を両立する実践テクニック #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2021/978-4-297-12227-0" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2021/978-4-297-12227-0" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>機械学習の研究開発が急速な勢いで進んでいます。理論研究はもちろん，<wbr/>機械学習手法が実装されたオープンソースのパッケージ開発も進み，<wbr/>それらを実務で利用するためのノウハウも蓄積されてきています。結果として，<wbr/>機械学習をはじめたばかりの入門者でも比較的高い精度の予測モデルを構築できるようになりました。<br />
+Deep Learning, Gradient Boosting Decision Tree, Random Forestなどの機械学習モデルは高い予測精度を誇りますが，<wbr/>モデルの解釈性が低いという欠点があります。これらの複雑なブラックボックスモデルにおいて，<wbr/>モデルがなぜそのような予測を行っているのかを知ることは困難ですが，<wbr/>データ分析者自身がモデルの振る舞いを把握し，<wbr/>説明責任を果たすことを実務においては頻繁に求められます。<br />
+本書では，<wbr/>このような予測精度と解釈性のトレードオフを克服するための手法について，<wbr/>実務において特に有用と考えるものを厳選して紹介します。<!-- omitted below -->本書の構成は以下になります。</p>
+
+
+<p>1章: 機械学習の解釈性とは<br />
+2章: 線形回帰モデルを通して「解釈性」を理解する<br />
+3章: 特徴量の重要度を知る〜Permutation Feature Importance〜<br />
+4章: 特徴量と予測値の関係を知る〜Partial Dependence〜<br />
+5章: インスタンスごとの異質性を捉える〜Individual Conditional Expectation〜<br />
+6章: 予測の理由を考える〜SHapley Additive exPlanations〜<br />
+付録A: R による分析例~ tidymodelsとDALEXで機械学習モデルを解釈する~<br />
+付録B: 機械学習の解釈手法で線形回帰モデルを解釈する</p>
+
+<p>2章では極めて高い解釈性を誇る線形回帰モデルを通して，<wbr/>予測モデルに求められる解釈性について説明します。以降の4つの章では，<wbr/>それらの解釈性をブラックボックスモデルに与えるPFI, PD, ICE, SHAPと呼ばれる手法について解説します。<br />
+本書は機械学習の解釈手法を実用して頂くことを目的としています。Pythonでゼロから手法を実装することを通じて解釈手法のアルゴリズムを理解し，<wbr/>実データの分析を通じて解釈手法の勘所を押さえて頂きます。機械学習の解釈手法は強力な反面，<wbr/>使い方を誤ると間違った結論を導いてしまう危険もあります。本書では解釈手法を実用する際の注意点についても丁寧に触れています。</p><h3>こんな方におすすめ</h3>
+<ul><li>機械学習エンジニア</li><li>データサイエンティスト</li><li>機械学習エンジニア，<wbr/>データサイエンティスト職を志望する学生</li></ul>
+<aside class="author"><h3>森下光之助（もりしたみつのすけ）</h3><p>東京大学大学院経済学研究科で計量経済学を用いた実証分析を学び，<wbr/>経済学修士号を取得。株式会社グリッドに入社し，<wbr/>機械学習を用いたデータ分析プロジェクトに従事。現在はTVISION INSIGHTS株式会社で執行役員兼データ・<wbr/>テクノロジー本部副本部長。テレビデータの分析，<wbr/>社内データの利活用の促進，<wbr/>データ部門のマネジメントを行っている。<br />
+Twitter:：<a href="https://twitter.com/dropout009">@dropout009</a><br />
+ブログ：<a href="https://dropout009.hatenablog.com/">https://dropout009.hatenablog.com/</a><br />
+登壇資料：<a href="https://speakerdeck.com/dropout009">https://speakerdeck.com/dropout009</a>
+</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="42657">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>1章 機械学習の解釈性とは</h3>
+<ul class="toc">
+<li>1.1 機械学習の解釈性を必要とする理由</li>
+<li>1.2 予測精度と解釈性のトレードオフ</li>
+<li>1.3 機械学習の解釈手法</li>
+<li>1.4 機械学習の解釈手法の注意点</li>
+<li>1.5 本書の構成</li>
+<li>1.6 本書に書いていること，書いていないこと</li>
+<li>1.7 本書で用いる数式の記法<ul class="toc">
+	<li>1.7.1 確率変数と実測値</li>
+	<li>1.7.2 期待値と分散</li>
+	<li>1.7.3 確率分布</li>
+	<li>1.7.4 線形回帰モデル</li>
+	<li>1.7.5 集合</li></ul></li>
+<li>1.8 本書のコードを実行するためのPython環境</li>
+<li>1.9 参考文献</li>
+</ul>
+<h3>2章 線形回帰モデルを通して「解釈性」を理解する</h3>
+<ul class="toc">
+<li>2.1 線形回帰モデルの導入<ul class="toc">
+	<li>2.1.1 回帰問題と線形回帰モデル</li>
+	<li>2.1.2 最小二乗法による回帰係数の推定</li></ul></li>
+<li>2.2 線形回帰モデルが備える解釈性<ul class="toc">
+	<li>2.2.1 特徴量と予測値の平均的な関係</li>
+	<li>2.2.2 特徴量と予測値のインスタンスごとの関係</li>
+	<li>2.2.3 特徴量の重要度</li>
+	<li>2.2.4 インスタンスごとの予測の理由</li></ul></li>
+<li>2.3 実データでの線形モデルの分析<ul class="toc">
+	<li>2.3.1 データの読み込み</li>
+	<li>2.3.2 データの前処理</li>
+	<li>2.3.3 線形モデルの学習と評価</li>
+	<li>2.3.4 予測誤差の計算</li>
+	<li>2.3.5 線形回帰モデルの解釈</li>
+	<li>2.3.6 Random Forestによる予測</li></ul></li>
+<li>2.4 線形回帰の利点と注意点</li>
+<li>2.5 参考文献</li>
+</ul>
+<h3>3章 特徴量の重要度を知る〜Permutation Feature Importance〜</h3>
+<ul class="toc">
+<li>3.1 なぜ特徴量の重要度を知る必要があるのか</li>
+<li>3.2 線形回帰モデルるにおける特徴量の重要度<ul class="toc">
+	<li>3.2.1 シミュレーションデータの設定</li>
+	<li>3.2.2 シミュレーションデータの生成</li></ul></li>
+	<li>3.2.3 線形回帰モデルの特徴量重要度の確認</li>
+<li>3.3 Permutation Feature Importance<ul class="toc">
+	<li>3.3.1 PFIのアルゴリズム</li>
+	<li>3.3.2 PFIの実装</li>
+	<li>3.3.3 PFIのシミュレーションデータへの適用</li></ul></li>
+<li>3.4 Leave One Covariate Out Feature Importance</li>
+<li>3.5 Grouped Permutation Feature Importance<ul class="toc">
+	<li>3.5.1 特徴量が相関するケース</li>
+	<li>3.5.2 GPFIの実装</li>
+	<li>3.5.3 GPFIのシミュレーションデータへの適用</li></ul></li>
+<li>3.6 特徴量重要度は因果関係として解釈できるか？<ul class="toc">
+	<li>3.6.1 疑似相関</li>
+	<li>3.6.2 疑似相関のシミュレーション</li></ul></li>
+<li>3.7 訓練データとテストデータのどちらで予測精度を評価するべきか</li>
+<li>3.8 実データでの分析</li>
+<li>3.9 PFIの利点と注意点</li>
+<li>3.10 参考文献</li>
+</ul>
+<h3>4章 特徴量と予測値の関係を知る〜Partial Dependence〜</h3>
+<ul class="toc">
+<li>4.1 なぜ特徴量と予測値の関係を知る必要があるのか</li>
+<li>4.2 線形回帰モデルと回帰係数<ul class="toc">
+	<li>4.2.1 シミュレーション1：線形の場合</li>
+	<li>4.2.2 シミュレーション2：非線形の場合</li></ul></li>
+<li>4.3 Partial Dependence<ul class="toc">
+	<li>4.3.1 1つのインスタンスの特徴量とモデルの予測値の関係</li>
+	<li>4.3.2 すべてのインスタンスに対する特徴量と予測値の平均的な関係</li>
+	<li>4.3.3 Partial Dependenceクラスの実装</li>
+	<li>4.3.4 Partial Dependenceの数式表現</li></ul></li>
+<li>4.4 Partial Dependenceは因果関係として解釈できるのか<ul class="toc">
+	<li>4.4.1 シミュレーション3：相関関係と因果関係</li>
+	<li>4.4.2 PDを因果関係として解釈することの危険性</li></ul></li>
+<li>4.5 実データでの分析<ul class="toc">
+	<li>4.5.1 PDによる可視化</li></ul></li>
+<li>4.6 PDの利点と注意点</li>
+<li>4.7 参考文献</li>
+</ul>
+<h3>5章 インスタンスごとの異質性をとらえる〜Individual Conditional Expectation〜</h3>
+<ul class="toc">
+<li>5.1 なぜインスタンスごとの異質性をとらえる必要があるのか</li>
+<li>5.2 交互作用とPDの限界<ul class="toc">
+	<li>5.2.1 シミュレーションデータの生成</li>
+	<li>5.2.2 PDの可視化</li></ul></li>
+<li>5.3 Individual Conditional Expectation<ul class="toc">
+	<li>5.3.1 ICEの実装</li>
+	<li>5.3.2 ICEのシミュレーションデータへの適用</li></ul></li>
+<li>5.4 Conditional Partial Dependence<ul class="toc">
+	<li>5.4.1 CPDの数式表現</li>
+	<li>5.4.2 CPDの可視化</li></ul></li>
+<li>5.5 ICEの解釈<ul class="toc">
+	<li>5.5.1 what-if</li>
+	<li>5.5.2 特徴量に依存関係があるケース</li></ul></li>
+<li>5.6 実データでの分析</li>
+<li>5.7 ICEの利点と注意点</li>
+<li>5.8 参考文献</li>
+</ul>
+<h3>6章 予測の理由を考える〜SHapley Additive exPlanations〜</h3>
+<ul class="toc">
+<li>6.1 なぜ予測の理由を考える必要があるのか</li>
+<li>6.2 SHAPのアイデア<ul class="toc">
+	<li>6.2.1 SHAPの数式表現</li>
+	<li>6.2.2 貢献度の分解：線形回帰モデルの場合</li></ul></li>
+<li>6.3 協力ゲーム理論とShapley値<ul class="toc">
+	<li>6.3.1 アルバイトゲーム</li>
+	<li>6.3.2 限界貢献度</li>
+	<li>6.3.3 Shapley値の数式表現</li></ul></li>
+<li>6.4 SHapley Additive exPlanations<ul class="toc">
+	<li>6.4.1 特徴量が分かっている／分かっていない場合の予測値</li>
+	<li>6.4.2 具体例：特徴量が2つの場合</li></ul></li>
+<li>6.5 SHAPの実装<ul class="toc">
+	<li>6.5.1 SHAPの実装</li>
+	<li>6.5.2 `ShapleyAdditiveExplanations`クラスの実装</li></ul></li>
+<li>6.6 実データでの分析<ul class="toc">
+	<li>6.6.1 shapパッケージの導入</li>
+	<li>6.6.2 SHAP値の可視化</li></ul></li>
+<li>6.7 ミクロからマクロへ<ul class="toc">
+	<li>6.7.1 SHAPによる特徴量重要度の可視化</li>
+	<li>6.7.2 SHAPによるPDの可視化</li></ul></li>
+<li>6.8 SHAPの利点と注意点</li>
+<li>6.9 参考文献</li>
+</ul>
+<h3>付録A: Rによる分析例〜tidymodelsとDALEXで機械学習モデルを解釈する〜</h3>
+<ul class="toc">
+<li>A.1 tidymodelsとDALEX</li>
+<li>A.2 データの読み込み</li>
+<li>A.3 tidymodelsによる機械学習モデルの構築</li>
+<li>A.4 DALEXによる機械学習モデルの解釈<ul class="toc">
+	<li>A.4.1 PFIで特徴量の重要度を知る</li>
+	<li>A.4.2 PDで特徴量と予測値の平均的な関係を知る</li>
+	<li>A.4.3 ICEで特徴量と予測値のインスタンスごとの関係を知る</li>
+	<li>A.4.4 SHAPでインスタンスごとの予測の理由を知る</li></ul></li>
+<li>A.5 まとめ</li>
+<li>A.6 参考文献</li>
+</ul>
+<h3>付録B: 機械学習の解釈手法で線形回帰モデルを解釈する</h3>
+<ul class="toc">
+<li>B.1  なぜ機械学習の解釈手法で線形回帰モデルを解釈するのか<ul class="toc">
+	<li>B.1.1 線形回帰モデルの設定</li>
+	<li>B.1.2 シミュレーションの設定</li>
+	<li>B.1.3 線形回帰モデルの学習</li></ul></li>
+<li>B.2 線形回帰モデルとPFIの関係<ul class="toc">
+	<li>B.2.1 シミュレーションによる比較</li>
+	<li>B.2.2 数式による比較</li></ul></li>
+<li>B.3 線形回帰モデルとPDの関係<ul class="toc">
+	<li>B.3.1 数式による比較</li>
+	<li>B.3.2 シミュレーションによる比較</li></ul></li>
+<li>B.4 線形回帰モデルとICEの関係<ul class="toc">
+	<li>B.4.1 数式による比較</li>
+	<li>B.4.2 シミュレーションによる比較</li></ul></li>
+<li>B.5 線形回帰モデルとSHAPの関係<ul class="toc">
+	<li>B.5.1 数式による比較</li>
+	<li>B.5.2 シミュレーションによる比較</li></ul></li>
+<li>B.6 まとめ</li>
+<li>B.7 考文献</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2021 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2021\/978-4-297-12227-0","path":"\/dp\/ebook\/2021\/978-4-297-12227-0","targetId":"978-4-297-12227-0","parent":"\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;gtag('event','JSError',{'evetn_category':'Error','event_label':mes});};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

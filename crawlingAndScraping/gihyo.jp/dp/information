@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>お知らせ | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="サイトからのお知らせ | 技術評論社の電子書籍（電子出版）販売サイト"/>
+  <meta name="keywords" content="お知らせ,電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0422.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0425.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="お知らせ | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="サイトからのお知らせ | 技術評論社の電子書籍（電子出版）販売サイト"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/information"/>
+  <meta property="og:image" content="/dp/assets/gdp-icon.png"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL906V3TN7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DL906V3TN7');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+    <div id="informationList">
+      <h2>お知らせ一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp/information" method="get">
+            <input type="search" name="query" id="searchText" title="検索するお知らせのキーワードを入力" placeholder="お知らせのキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="対象期間を指定する">すべての期間</a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"><li class="title">対象期間を指定</li><li class="selected"><a href="/dp/information">すべての期間</a></li><li><a href="/dp/information/2021">2021年</a></li><li><a href="/dp/information/2020">2020年</a></li><li><a href="/dp/information/2019">2019年</a></li><li><a href="/dp/information/2018">2018年</a></li><li><a href="/dp/information/2017">2017年</a></li><li><a href="/dp/information/2016">2016年</a></li><li><a href="/dp/information/2015">2015年</a></li><li><a href="/dp/information/2014">2014年</a></li><li><a href="/dp/information/2013">2013年</a></li><li><a href="/dp/information/2012">2012年</a></li><li><a href="/dp/information/2011">2011年</a></li></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">          <ul>
+            <li><span class="prev">―</span></li>
+            <li class="paging-number">1</li>
+            <li><a href="/dp/information?start=30" title="次のページ" class="next">次</a></li>
+          </ul>
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listInformation" class="list-information">        <li class="promotion">
+          <a href="/dp/information/promotion/202107/3001">
+            <div class="title">［先週～今週のリリース情報］<wbr>ビジネスで活かせる<wbr>「機械学習」<wbr>をより理解するための<wbr>2<wbr>冊が同時発売。<wbr>Python<wbr>入門ほか，<wbr>看護系現代文，<wbr>ずかん<wbr>「美しい世界の線路」<wbr>など電子版で登場</div>
+            <p><time datetime="2021-07-30">2021年7月30日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202107/1601">
+            <div class="title">［今週のリリース情報］<wbr>SD<wbr>最新号では<wbr>「React」<wbr>を特集。パーフェクト C#<wbr>や機械学習理論入門など専門書の改訂版が登場。ほか，<wbr>テレワークに使えるツールや，<wbr>ESG<wbr>を学べる書籍など新刊も続々発売</div>
+            <p><time datetime="2021-07-16">2021年7月16日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202107/0901">
+            <div class="title">［今週のリリース情報］<wbr>Premiere Pro<wbr>で本格動画編集。<wbr>SOLIDWORKS<wbr>で<wbr>3<wbr>次元<wbr>CAD，<wbr>機械学習と統計学のしくみや，<wbr>不動産投資まで色々学べる書籍が電子版で発売</div>
+            <p><time datetime="2021-07-09">2021年7月9日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202107/0201">
+            <div class="title">［今週のリリース情報］<wbr>今週も様々な分野の新刊が登場！ データリテラシーや建築業界で活かせる<wbr>BIM<wbr>の書籍，<wbr>Excel<wbr>関数，<wbr>Access<wbr>の<wbr>PC<wbr>書から，<wbr>古生物や小学生の理科がわかる書籍など</div>
+            <p><time datetime="2021-07-02">2021年7月2日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202106/2501">
+            <div class="title">［今週のリリース情報］<wbr>WEB+DB<wbr>最新号は，<wbr>HTTP/<wbr>3<wbr>入門を特集。<wbr>AI<wbr>リテラシーの教科書や，<wbr>UiPath<wbr>の実用的な書籍，<wbr>Amazon Echo<wbr>新機種の解説本など，<wbr>ジャンルも様々に電子版で発売</div>
+            <p><time datetime="2021-06-25">2021年6月25日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202106/1801">
+            <div class="title">［今週のリリース情報］<wbr>SD<wbr>最新号では，<wbr>次世代セキュリティモデル<wbr>「ゼロトラスト」<wbr>を特集。ほか，<wbr>情報処理安全確保支援士，<wbr>応用情報技術者の過去問題集の令和<wbr>3<wbr>年<wbr>【秋期】<wbr>版が電子版で登場</div>
+            <p><time datetime="2021-06-18">2021年6月18日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202106/1101">
+            <div class="title">［今週のリリース情報］<wbr>新シリーズ<wbr>『ずかんプラス』<wbr>から，<wbr>細胞を学べる第<wbr>1<wbr>弾が登場。ほか，<wbr>MacBook<wbr>や<wbr>Android<wbr>タブレットのわかりやすい入門書なども電子版で発売</div>
+            <p><time datetime="2021-06-11">2021年6月11日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202106/0401">
+            <div class="title">［今週のリリース情報］<wbr>「#<wbr>宇宙本」<wbr>『RStudio<wbr>［実践］<wbr>入門』<wbr>が改訂版で登場。情報セキュリティに関する試験対策本や，<wbr>今気になる医薬品業界の書籍など電子版で発売，<wbr>ほか</div>
+            <p><time datetime="2021-06-04">2021年6月4日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202105/2801">
+            <div class="title">［今週のリリース情報］<wbr>プログラミング教育を大人の目線で追体験。ずかんシリーズからは<wbr>「ヒトの細胞」<wbr>が電子版で登場！ ほか，<wbr>Excel<wbr>や<wbr>PowerPoint<wbr>の定番解説書など続々発売</div>
+            <p><time datetime="2021-05-28">2021年5月28日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202105/2101">
+            <div class="title">［今週のリリース情報］<wbr>SD<wbr>最新号では，<wbr>Visual Studio Code<wbr>の拡張機能を特集。絵と図でわかる新シリーズからは<wbr>「AI<wbr>と社会」<wbr>「データサイエンス」<wbr>の<wbr>2<wbr>冊が電子版で登場</div>
+            <p><time datetime="2021-05-21">2021年5月21日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202105/1401">
+            <div class="title">［今週のリリース情報］<wbr>イラスト＆<wbr>会話形式で学べる<wbr>Python<wbr>の入門書が登場。メンタルトレーニングの教科書や，<wbr>数学にまつわる書籍，<wbr>Twitter<wbr>や<wbr>LINE<wbr>の入門書も登場，<wbr>ほか</div>
+            <p><time datetime="2021-05-14">2021年5月14日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202105/0701">
+            <div class="title">［今週のリリース情報］<wbr>Illustrator<wbr>と<wbr>Photoshop，<wbr>InDesign<wbr>の入門書が電子版で発売。業界知識を学べるシリーズからは<wbr>「アパレル」<wbr>と<wbr>「住宅メーカー」<wbr>が登場，<wbr>ほか</div>
+            <p><time datetime="2021-05-07">2021年5月7日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202104/3001">
+            <div class="title">［今週のリリース情報］<wbr>「データサイエンス＆<wbr>機械学習」<wbr>が増補改訂で登場。<wbr>Node-RED<wbr>を活用した電子工作や，<wbr>Illustrator<wbr>の基本を学べる書籍ほか，<wbr>図解即戦力シリーズの新刊も電子版で発売</div>
+            <p><time datetime="2021-04-30">2021年4月30日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202104/2301">
+            <div class="title">［今週のリリース情報］<wbr>WEB+DB<wbr>の特集は<wbr>Web<wbr>技術総整理。注目書籍<wbr>「バリューサイクル・<wbr>マネジメント」<wbr>と<wbr>「学びの呼吸」<wbr>は電子先行で発売。<wbr>SD<wbr>別冊も電子版で登場，<wbr>ほか</div>
+            <p><time datetime="2021-04-23">2021年4月23日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202104/1601">
+            <div class="title">［今週のリリース情報 ②］<wbr>SD<wbr>最新号は<wbr>TCP/<wbr>IP<wbr>を特集。<wbr>WEB+DB PRESS Plus<wbr>からは<wbr>「Linux<wbr>＋コマンド入門」<wbr>が登場。ほか，<wbr>きものを楽しむエッセイ本やビジネスに役立つ書籍など，<wbr>続々発売</div>
+            <p><time datetime="2021-04-16">2021年4月16日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202104/1401">
+            <div class="title">［今週のリリース情報 ①］<wbr>注目書籍が続々電子版で発売！ 開発や運用改善に使える解説本から，<wbr>ビジネスに活かせるノウハウ本，<wbr>デザインテクニックまで多彩なラインナップで登場</div>
+            <p><time datetime="2021-04-14">2021年4月14日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202104/0901">
+            <div class="title">［先週～今週のリリース情報］<wbr>注目書籍<wbr>「エクセル方眼紙で文書を作るのはやめなさい」<wbr>で資料作りのスキルを身につけよう！ Kotlin<wbr>でサーバサイド開発，<wbr>ほか機械工学の改訂版など電子版で登場</div>
+            <p><time datetime="2021-04-09">2021年4月9日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202103/2601">
+            <div class="title">［今週のリリース情報］<wbr>ストーリー仕立てで学べるプログラミング<wbr>「スプリンギン」<wbr>や，<wbr>ブレンダーで<wbr>3D<wbr>アニメーションなど，<wbr>楽しく学べる書籍ほか，<wbr>定番の試験本も電子版で登場</div>
+            <p><time datetime="2021-03-26">2021年3月26日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202103/1901">
+            <div class="title">［先週～今週のリリース情報］<wbr>SD<wbr>最新号は<wbr>Linux<wbr>総復習。<wbr>WEB+DB PRESS Plus<wbr>シリーズ<wbr>「GPU<wbr>を支える技術」<wbr>が増補改訂版で登場ほか，<wbr>ビジネスや生活の新しい形を学べる書籍など，<wbr>電子版で発売</div>
+            <p><time datetime="2021-03-19">2021年3月19日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202103/0501">
+            <div class="title">［今週のリリース情報］<wbr>データサイエンスのための数学入門。まさに今必要な情報を得るために<wbr>「ワクチンの科学」<wbr>が電子版で発売</div>
+            <p><time datetime="2021-03-05">2021年3月5日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202102/2601">
+            <div class="title">［今週のリリース情報］<wbr>WEB+DB<wbr>の特集は詳解<wbr>Ruby 3<wbr>。仕事で使える<wbr>Excel マクロ＆<wbr>VBA<wbr>や，<wbr>Illustrator<wbr>と<wbr>Photoshop<wbr>の最新版に対応した書籍など電子版で発売，<wbr>ほか</div>
+            <p><time datetime="2021-02-26">2021年2月26日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202102/1901">
+            <div class="title">［今週のリリース情報］<wbr>SD<wbr>最新号の特集は，<wbr>オブジェクト指向プログラミング。<wbr>Unity<wbr>でゲーム作成，<wbr>Vue.js<wbr>でアプリケーション開発ほか，<wbr>テレワークに便利なサービスを紹介した書籍など続々発売</div>
+            <p><time datetime="2021-02-19">2021年2月19日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202102/1201">
+            <div class="title">［今週のリリース情報］<wbr>WEB+DB PRESS Plus<wbr>シリーズ新刊は<wbr>『ビッグデータを支える技術』<wbr>増補改訂版！ 「組込みシステム開発」<wbr>「Web<wbr>配信」<wbr>など，<wbr>知りたい技術を学べる新刊が続々登場</div>
+            <p><time datetime="2021-02-12">2021年2月12日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202102/0501">
+            <div class="title">［先週～今週のリリース情報］<wbr>PowerPoint<wbr>で手軽に動画作成，<wbr>人気イラストレーター・<wbr>ヒョーゴノスケのテクニックがわかる<wbr>1<wbr>冊，<wbr>プロの技から手軽に使える素材集まで，<wbr>多彩な書籍が電子版で登場</div>
+            <p><time datetime="2021-02-05">2021年2月5日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202101/2201">
+            <div class="title">［今週のリリース情報］<wbr>SD<wbr>最新号は<wbr>Web API<wbr>特集。ほか<wbr>『CISO<wbr>ハンドブック』<wbr>『Python<wbr>コードレシピ集』<wbr>など，<wbr>電子版なら家でも会社でもどこからでもすぐに購読できます</div>
+            <p><time datetime="2021-01-22">2021年1月22日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202101/0801">
+            <div class="title">［今週のリリース情報］<wbr>『Oracle Cloud Infrastructure エンタープライズ構築実践ガイド』<wbr>『Excel VBA コードレシピ集』<wbr>『重力波発見の物語』<wbr>など，<wbr>2021<wbr>年も新刊が続々登場！ </div>
+            <p><time datetime="2021-01-08">2021年1月8日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202012/2501">
+            <div class="title">［今週～来週のリリース情報］<wbr>WEB+DB PRESS<wbr>は<wbr>20<wbr>周年記念号！ 恒例の記念企画は拡大版。電子先行発売の<wbr>3<wbr>冊を含め，<wbr>様々なジャンルの改訂版や新刊が続々発売</div>
+            <p><time datetime="2020-12-25">2020年12月25日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202012/1801">
+            <div class="title">［今週のリリース情報］<wbr>SD<wbr>最新号は，<wbr>Go<wbr>プログラミングスキルのレベルアップを特集。ほか，<wbr>Unity<wbr>の入門書や，<wbr>情報処理技術者試験対策本もさらに続々登場</div>
+            <p><time datetime="2020-12-18">2020年12月18日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202012/1101">
+            <div class="title">［今週のリリース情報］<wbr>『AI<wbr>・<wbr>データ分析プロジェクトのすべて』<wbr>が電子先行で発売。テレワーク時代の働き方を考える<wbr>『超・<wbr>会議術』<wbr>ほか，<wbr>情報処理技術者試験対策本も続々発売</div>
+            <p><time datetime="2020-12-11">2020年12月11日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>        <li class="promotion">
+          <a href="/dp/information/promotion/202012/0401">
+            <div class="title">［今週のリリース情報］<wbr>問題地図シリーズの最新刊<wbr>『文章の問題地図』<wbr>が電子先行で発売。<wbr>『イラストでわかる Docker<wbr>と<wbr>Kubernetes』<wbr>など続々電子版で発売</div>
+            <p><time datetime="2020-12-04">2020年12月4日</time>
+            <span class="type">プロモーション</span></p>
+          </a>
+        </li>
+      </ul>
+      <nav id="pagingBottom">        <ul>
+          <li><span class="prev">―</span></li>
+          <li class="paging-number">1 - 30 / 478</li>
+          <li><a href="/dp/information?start=30" title="次のページ" class="next">次</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor" class="current"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper"></div>
+      <div id="navInfor"><p class="page">1 - 30 / 478</p></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2021 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/information","path":"\/dp\/information","body":"    <div id=\"informationList\">\n      <h2>\u304a\u77e5\u3089\u305b\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\/information\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u304a\u77e5\u3089\u305b\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u304a\u77e5\u3089\u305b\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5bfe\u8c61\u671f\u9593\u3092\u6307\u5b9a\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listInformation\" class=\"list-information\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;gtag('event','JSError',{'evetn_category':'Error','event_label':mes});};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

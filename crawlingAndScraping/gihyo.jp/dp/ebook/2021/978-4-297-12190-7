@@ -1,0 +1,860 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>今すぐ使えるかんたん Windows 10 完全ガイドブック 困った解決＆便利技［2021-2022年最新版］ | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="2021年の最新アップデートに対応したWindows 10の解説書です。PC操作に慣れた方でも忘れがち＆見落としがちな，「デスクトップ操作」「文字入力」「インターネット」「メールと連絡先」「音楽・写真・動画」「OneDriveやスマホとの連携」「アプリ」「印刷」のあれこれを徹底解説。ネットを使いこなすための「セキュリティ」についても言及し，安心安全にWindowsを使用するための1冊としてさらに使いやすく便利になっています。「テレワーク」の章も新設し，Windows10の最新＆詳細な機能を知りたい方に必携の1冊となっています。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0422.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0425.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="今すぐ使えるかんたん Windows 10 完全ガイドブック 困った解決＆便利技［2021-2022年最新版］ | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="2021年の最新アップデートに対応したWindows 10の解説書です。PC操作に慣れた方でも忘れがち＆見落としがちな，「デスクトップ操作」「文字入力」「インターネット」「メールと連絡先」「音楽・写真・動画」「OneDriveやスマホとの連携」「アプリ」「印刷」のあれこれを徹底解説。ネットを使いこなすための「セキュリティ」についても言及し，安心安全にWindowsを使用するための1冊としてさらに使いやすく便利になっています。「テレワーク」の章も新設し，Windows10の最新＆詳細な機能を知りたい方に必携の1冊となっています。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2021/978-4-297-12190-7"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12190-7.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL906V3TN7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DL906V3TN7');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E4%BB%8A%E3%81%99%E3%81%90%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93">今すぐ使えるかんたん</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">今すぐ使えるかんたん<br>Windows 10 完全ガイドブック 困った解決＆<wbr>便利技<br><span class="sub">［2021-2022<wbr>年最新版］</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12190-7.jpg" alt="今すぐ使えるかんたん Windows 10 完全ガイドブック 困った解決＆便利技［2021-2022年最新版］"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">リブロワークス　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2021-07-19">2021年7月19日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2021-07-19">2021年7月19日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2021/978-4-297-12189-1" target="_blank">2021年7月26日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">1,480円 <a id="pid403291" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">368</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2021/978-4-297-12190-7" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2021/978-4-297-12190-7" data-text="今すぐ使えるかんたん Windows 10 完全ガイドブック 困った解決＆便利技［2021-2022年最新版］ #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2021/978-4-297-12190-7" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2021/978-4-297-12190-7" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>2021年の最新アップデートに対応したWindows 10の解説書です。PC操作に慣れた方でも忘れがち＆見落としがちな，<wbr/>「デスクトップ操作」「文字入力」「インターネット」「メールと連絡先」「音楽・<wbr/>写真・<wbr/>動画」「OneDriveやスマホとの連携」「アプリ」「印刷」のあれこれを徹底解説。ネットを使いこなすための「セキュリティ」についても言及し，<wbr/>安心安全にWindowsを使用するための1冊としてさらに使いやすく便利になっています。「テレワーク」の章も新設し，<wbr/>Windows10の最新＆詳細な機能を知りたい方に必携の1冊となっています。</p><h3>こんな方におすすめ</h3>
+<ul><li>Windows 10の使い方を詳しく知りたい人</li><li>Windows 10の機能を隅々まで知りたい人</li></ul>
+<section id="sample"><h2>サンプル</h2><ul class="pdf"><li><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12189-1/9784297121891-01.pdf" target="_blank">サンプルPDFファイル1</a>（7,387KB）</li></ul>
+</section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="42574">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>CHAPTER1　Windows 10の基本を知ろう！</h3>
+<ul class="toc">
+<li>001 Windows 10 って何？</li>
+<li>002 10 以外のWindowsもあるの？</li>
+<li>003 Windows 10の「エディション」って何？</li>
+<li>004 Windows 10の「バージョン」って何？</li>
+<li>005 自分のパソコンのエディションとバージョンを知りたい！</li>
+<li>006 パソコンにはWindows以外もあるの？</li>
+<li>007 マウス・タッチパッド・タッチディスプレイはどう違うの？</li>
+<li>008 マウスを使うにはどうすればいいの？</li>
+<li>009 マウスやタッチパッドの操作の基本を知りたい！</li>
+<li>010 タッチディスプレイの操作の基本を知りたい！</li>
+<li>011 パソコンを起動して使い始めるまでの手順を知りたい！</li>
+<li>012 パソコンの電源を切るにはどうしたらいいの？</li>
+<li>013 「シャットダウン」と「スリープ」の違いは？</li>
+<li>014 「スリープ」と「ロック」の違いは？</li>
+<li>015 「サインアウト」って何？</li>
+<li>016 パソコンの再起動ってどんなときに使うの？</li>
+<li>017 いきなり電源ボタンを押したりコンセントを抜いたりしてもいいの？</li>
+<li>018 起動時に変な画面が表示された！</li>
+<li>019 電源を入れても画面が真っ暗なまま！</li>
+<li>020 パソコンの音が鳴らなくなった！</li>
+<li>021 起動時のパスワードを忘れてしまった！</li>
+<li>022 パソコンの画面が真っ暗になった！</li>
+<li>023 電源を入れてもパソコンが起動しない！</li>
+<li>024 Windows 終了時の画面がいつもと違う！</li>
+<li>025 電源ボタンを押してもパソコンが終了しない！</li>
+<li>026 「強制的にシャットダウン」と表示された！</li>
+<li>027 パソコンがいきなり操作できなくなった！</li>
+<li>028 パソコンの動きがいきなり遅くなった！</li>
+<li>029 スタートメニューの見方を知りたい！</li>
+<li>030 スタートメニューでの操作の基本を知りたい！</li>
+<li>031 ＜スタート＞ボタンの機能を知りたい！</li>
+<li>032 スタートメニューのサイズを変更したい！</li>
+<li>033 スタートメニューにアプリを追加したい！</li>
+<li>034 スタートメニューからタイルを削除したい！</li>
+<li>035 タイルの位置を変えたい！</li>
+<li>036 タイルの大きさを変えたい！</li>
+<li>037 「ライブタイル」って何？</li>
+<li>038 ライブタイルの設定を変えたい！</li>
+<li>039 タイルを整理してすっきりさせたい！</li>
+<li>040 「よく使うアプリ」を非表示にしたい！</li>
+<li>041 アプリを「頭文字」から探したい！</li>
+<li>042 インストールしたはずのアプリが見つからない！</li>
+<li>043 アプリを画面いっぱいに表示したい！</li>
+<li>044 アプリを終了するにはどうすればいいの？</li>
+<li>045 「コントロールパネル」を開きたい！</li>
+<li>046 「ファイル名を指定して実行」を開きたい！</li>
+<li>047 スタートメニューやタイルから素早くファイルを開きたい！</li>
+<li>048 よく使うタイルのグループをクリックしやすい場所に置きたい！</li>
+
+</ul>
+<h3>CHAPTER2　Windows 10のデスクトップ便利技！</h3>
+<ul class="toc">
+<li>049 デスクトップって何？</li>
+<li>050 これまでのデスクトップと違うところはどこ？</li>
+<li>051 デスクトップの見方を知りたい！</li>
+<li>052 デスクトップアイコンの大きさを変えたい！</li>
+<li>053 デスクトップアイコンを移動させたい！</li>
+<li>054 デスクトップアイコンを整理したい！</li>
+<li>055 画面を画像にして保存したい！</li>
+<li>056 画面を画像としてコピーしたい！</li>
+<li>057 選択しているウィンドウのみを画像として保存したい！</li>
+<li>058 「ペイント」や「メモ帳」はどこにあるの？</li>
+<li>059 ウィンドウ操作の基本を知りたい！</li>
+<li>060 ウィンドウの大きさを変更したい！</li>
+<li>061 ウィンドウを移動させたい！</li>
+<li>062 ウィンドウを簡単に切り替えたい！</li>
+<li>063 ウィンドウをきれいに並べたい！</li>
+<li>064 ウィンドウのサイズが勝手に変わってしまった！</li>
+<li>065 すべてのウィンドウを一気に最小化したい！</li>
+<li>066 再起動するように表示された！</li>
+<li>067 タスクバーって何？</li>
+<li>068 タスクバーの使い方を知りたい！</li>
+<li>069 タスクバーを隠して画面を大きく表示したい！</li>
+<li>070 よく使うファイルをすぐに開きたい！</li>
+<li>071 アプリをタスクバーから素早く起動したい！</li>
+<li>072 画面右下に表示されるメッセージは何？</li>
+<li>073 通知を詳しく確認したい！</li>
+<li>074 アクションセンターって何？</li>
+<li>075 仮想デスクトップって何？</li>
+<li>076 新しいデスクトップを作成したい！</li>
+<li>077 デスクトップに名前を付けたい！</li>
+<li>078 操作するデスクトップを切り替えるには？</li>
+<li>079 デスクトップを切り替えたらアプリが消えた！</li>
+<li>080 アプリを別のデスクトップに移動するには？</li>
+<li>081 使わないデスクトップを削除したい！</li>
+<li>082 タイムラインって何？</li>
+<li>083 パソコンで昨日使っていたアプリを開くには？</li>
+<li>084 いらないアクティビティを削除するには？</li>
+<li>085 タイムラインの機能をオフにしたい！</li>
+<li>086 Windows の「ファイル」って何？</li>
+<li>087 ファイルとフォルダーの違いは？</li>
+<li>088 エクスプローラーって何？</li>
+<li>089 エクスプローラーの操作方法が知りたい！</li>
+<li>090 ナビゲーションウィンドウの操作方法が知りたい！</li>
+<li>091 アイコンの大きさを変えたい！</li>
+<li>092 「ドキュメント」や「ピクチャ」を開きたい！</li>
+<li>093 ＜ PC ＞って何？ どんなふうに使えばいいの？</li>
+<li>094 ファイルやフォルダーをコピーしたい！</li>
+<li>095 ファイルやフォルダーを移動したい！</li>
+<li>096 複数のファイルやフォルダーを一度に選択したい！</li>
+<li>097 ＜ファイルの置換またはスキップ＞画面が表示された！</li>
+<li>098 ファイルやフォルダーの名前を変えたい！</li>
+<li>099 フォルダーを作ってファイルを整理したい！</li>
+<li>100 ファイルやフォルダーを並べ替えたい！</li>
+<li>101 ファイルやフォルダーを削除したい！</li>
+<li>102 削除したファイルはどうなるの？</li>
+<li>103 ごみ箱に入っているファイルを元に戻したい！</li>
+<li>104 ごみ箱の中のファイルをまとめて消したい！</li>
+<li>105 ごみ箱の中のファイルを個別に削除したい！</li>
+<li>106 ファイルの圧縮って何？</li>
+<li>107 ファイルやフォルダーを圧縮したい！</li>
+<li>108 圧縮されたファイルを展開したい！</li>
+<li>109 他人に見せたくないファイルを隠したい！</li>
+<li>110 隠しファイルを表示させたい！</li>
+<li>111 ファイルの拡張子って何？</li>
+<li>112 ファイルの拡張子を表示したい！</li>
+<li>113 「このファイルを開く方法を選んでください」って何？</li>
+<li>114 タッチ操作でもエクスプローラーを使いやすくしたい！</li>
+<li>115 ファイルやフォルダーを検索したい！</li>
+<li>116 条件を指定してファイルを検索したい！</li>
+<li>117 ファイルを開かずに内容を確認したい！</li>
+<li>118 「クイックアクセス」って何？</li>
+<li>119 クイックアクセスに新しいフォルダーを追加したい！</li>
+<li>120 クイックアクセスからフォルダーを削除したい！</li>
+<li>121 クイックアクセスの機能をオフにしたい！</li>
+<li>122 よく使うフォルダーをデスクトップに表示させたい！</li>
+
+</ul>
+<h3>CHAPTER3　キーボードと文字入力の快適技！</h3>
+<ul class="toc">
+<li>123 キーボード入力の基本を知りたい！</li>
+<li>124 キーに書かれた文字の読み方がわからない！</li>
+<li>125 カーソルって何？</li>
+<li>126 日本語入力と半角英数字入力どちらになっているかわからない！</li>
+<li>127 日本語入力と半角英数字入力を切り替えるには？</li>
+<li>128 タッチディスプレイではどうやって文字を入力するの？</li>
+<li>129 タッチディスプレイでのキーボードの種類を知りたい！</li>
+<li>130 言語バーはなくなったの？</li>
+<li>131 デスクトップ画面に言語バーを表示させたい！</li>
+<li>132 文字カーソルの移動や改行のしかたを知りたい！</li>
+<li>133 日本語入力の基本を知りたい！</li>
+<li>134 日本語が入力できない！</li>
+<li>135 文字を削除したい！</li>
+<li>136 漢字を入力したい！</li>
+<li>137 カタカナを入力したい！</li>
+<li>138 文字が目的の位置に表示されない！</li>
+<li>139 「文節」って何？</li>
+<li>140 文節の区切りを変えてから変換したい！</li>
+<li>141 変換する文節を移動したい！</li>
+<li>142 文字を変換し直したい！</li>
+<li>143 変換しにくい単語を入力したい！</li>
+<li>144 読み方がわからない漢字を入力したい！</li>
+<li>145 ローマ字入力からかな入力に切り替えたい！</li>
+<li>146 ローマ字入力とかな入力，どちらを覚えればいいの？</li>
+<li>147 単語を辞書に登録したい！</li>
+<li>148 郵便番号を住所に変換したい！</li>
+<li>149 英字を小文字で入力したい！</li>
+<li>150 英字を大文字で入力したい！</li>
+<li>151 半角と全角は何が違うの？</li>
+<li>152 全角英数字を入力したい！</li>
+<li>153 空白の入力のしかたを知りたい！</li>
+<li>154 キーボードにない記号を入力したい！</li>
+<li>155 記号の読みが知りたい！</li>
+<li>156 平方メートルなどの記号を入力したい！</li>
+<li>157 丸数字を入力したい！</li>
+<li>158 さまざまな「」（カッコ）を入力したい！</li>
+<li>159 「ー」（長音）や「―」（ダッシュ）を入力したい！</li>
+<li>160 顔文字を入力したい！</li>
+<li>161 キーの数が少ないキーボードはどうやって使うの？</li>
+<li>162 文字を入力したら前にあった文字が消えた！</li>
+<li>163 キーボードで文字がまったく入力できない！</li>
+<li>164 画面に一瞬表示される「あ」や「A」は何？</li>
+<li>165 小文字を入力したいのに大文字になってしまう！</li>
+<li>166 数字キーを押しても数字が入力できない！</li>
+<li>167 キーに書いてある文字がうまく出せない！</li>
+<li>168 AltやCtrlはどんなときに使うの？</li>
+<li>169 Escはどんなときに使うの？</li>
+
+</ul>
+<h3>CHAPTER4　Windows 10のインターネット活用技！</h3>
+<ul class="toc">
+<li>170 インターネットの基本的なしくみを知りたい！</li>
+<li>171 インターネットを始めるにはどうすればいいの？</li>
+<li>172 インターネット接続に必要な機器は？</li>
+<li>173 無線と有線って何？</li>
+<li>174 無線と有線どちらを選べばいいの？</li>
+<li>175 インターネット接続の種類とその特徴は？</li>
+<li>176 プロバイダーはどうやって選べばいいの？</li>
+<li>177 外出先でインターネットを使いたい！</li>
+<li>178 複数台のパソコンをインターネットにつなげるには？</li>
+<li>179 Wi-Fiって何？</li>
+<li>180 Wi-Fiルーターの選び方を知りたい！</li>
+<li>181 家庭内のパソコンをWi-Fi 接続したい！</li>
+<li>182 外出先でWi-Fi 利用するには？</li>
+<li>183 インターネットに接続できない！</li>
+<li>184 インターネット接続中に回線が切れてしまう！</li>
+<li>185 ネットワークへの接続状態を確認したい！</li>
+<li>186 インターネットでWebページを見るにはどうすればいいの？</li>
+<li>187 Windows 10 ではどんなブラウザーを使うの？</li>
+<li>188 「Edge」と「IE」は何が違うの？</li>
+<li>189 Edgeの画面と基本操作を知りたい！</li>
+<li>190 Internet Explorer なくなってしまったの？</li>
+<li>191 EdgeやIE 以外のブラウザーもあるの？</li>
+<li>192 URL によく使われる文字の入力方法を知りたい！</li>
+<li>193 アドレスを入力してWebページを開きたい！</li>
+<li>194 直前に見ていたWebページに戻りたい！</li>
+<li>195 いくつか前に見ていたWebページに戻りたい！</li>
+<li>196 ページを戻りすぎてしまった！</li>
+<li>197 ＜進む＞＜戻る＞が使えない！</li>
+<li>198 ページの情報を最新にしたい！</li>
+<li>199 最初に表示されるWebページを変更したい！</li>
+<li>200 タブってどんな機能なの？</li>
+<li>201 タブを利用して複数のWebページを表示したい！</li>
+<li>202 タブを切り替えたい！</li>
+<li>203 リンク先のWebページを新しいタブに表示したい！</li>
+<li>204 タブを複製したい！</li>
+<li>205 タブを並べ替えたい！</li>
+<li>206 不要になったタブだけを閉じたい！</li>
+<li>207 タブを新しいウィンドウで表示したい！</li>
+<li>208 タブを間違えて閉じてしまった！</li>
+<li>209 タブが消えないようにしたい！</li>
+<li>210 新しいタブに表示するサイトをカスタマイズしたい！</li>
+<li>211 ファイルをダウンロードしたい！</li>
+<li>212 Webページにある画像をダウンロードしたい！</li>
+<li>213 ダウンロードしたファイルをすぐに開きたい！</li>
+<li>214 ダウンロードしたファイルはどこに保存されるの？</li>
+<li>215 Webページをスタートメニューに追加したい！</li>
+<li>216 Webページをタスクバーに追加したい！</li>
+<li>217 Webページをお気に入りに登録したい！</li>
+<li>218 お気に入りに登録したWebページを開きたい！</li>
+<li>219 お気に入りを整理するには？</li>
+<li>220 フォルダーを使ってお気に入りを整理したい！</li>
+<li>221 お気に入りの項目名を変更したい！</li>
+<li>222 お気に入りを削除したい！</li>
+<li>223 ほかのブラウザーからお気に入りを取り込める？</li>
+<li>224 お気に入りバーって何？</li>
+<li>225 お気に入りバーを表示したい！</li>
+<li>226 Webページをお気に入りバーに直接登録したい！</li>
+<li>227 お気に入りバーを整理したい！</li>
+<li>228 過去に見たWebページを表示したり探したりしたい！</li>
+<li>229 Webページの履歴を見られたくない！</li>
+<li>230 履歴を自動で消去できないの？</li>
+<li>231 「パスワードを保存しますか？」って何？</li>
+<li>232 Webページを大きく表示したい！</li>
+<li>233 フルスクリーンに切り替えてWebページを広く表示したい！</li>
+<li>234 Webページを一部分だけ拡大したい！</li>
+<li>235 Webページを印刷したい！</li>
+<li>236 文字が小さく印刷されて読みにくい！</li>
+<li>237 必要のないページは印刷したくない！</li>
+<li>238 読みたい行だけ強調したい！</li>
+<li>239 PDFって何？</li>
+<li>240 PDFの表示サイズを変えたい！</li>
+<li>241 Webページを検索したい！</li>
+<li>242 検索エンジンをGoogleに変更したい！</li>
+<li>243 複数のキーワードでWebページを検索したい！</li>
+<li>244 キーワードのいずれかを含むページを検索したい！</li>
+<li>245 特定のキーワードを除いて検索したい！</li>
+<li>246 長いキーワードが自動的に分割されてしまう！</li>
+<li>247 天気を調べたい！</li>
+<li>248 電車の乗り換えを調べたい！</li>
+<li>249 「○○からのポップアップをブロックしました」と表示された！</li>
+<li>250 Webページの動画が再生できない！</li>
+<li>251 アドレスバーの鍵のアイコンや「証明書」って何？</li>
+
+</ul>
+<h3>CHAPTER5　Windows 10のメールと連絡先活用技！</h3>
+<ul class="toc">
+<li>252 電子メールのしくみを知りたい！</li>
+<li>253 電子メールにはどんな種類があるの？</li>
+<li>254 メールソフトは何を使えばいいの？</li>
+<li>255 Webメールにはどのようなものがあるの？</li>
+<li>256 会社のメールを自宅のパソコンでも利用できる？</li>
+<li>257 携帯電話のメールをパソコンでも利用できる？</li>
+<li>258 送ったメールが戻ってきた！</li>
+<li>259 Gmail を利用したい！</li>
+<li>260 Gmail のアカウントの設定方法を知りたい！</li>
+<li>261 写真や動画はメールで送れるの？</li>
+<li>262 メールに添付する以外のファイルの送り方を知りたい！</li>
+<li>263 「メール」アプリの設定方法を知りたい！</li>
+<li>264 Outlook.comのアカウントの設定方法を知りたい！</li>
+<li>265 「メール」アプリの画面の見方を知りたい！</li>
+<li>266 プロバイダーメールのアカウントを「メール」アプリで使いたい！</li>
+<li>267 ローカルアカウントで「メール」アプリは使えないの？</li>
+<li>268 複数のメールアカウントを利用したい！</li>
+<li>269 使わないメールアカウントを削除したい！</li>
+<li>270 受信したメールを読みたい！</li>
+<li>271 メールに添付されたファイルを開きたい！</li>
+<li>272 添付されたファイルを保存したい！</li>
+<li>273 メールを送りたい！</li>
+<li>274 受信したメールに返信したい！</li>
+<li>275 「CC」「BCC」って何？</li>
+<li>276 複数の人に同じメールを送りたい！</li>
+<li>277 メールを別の人に転送したい！</li>
+<li>278 CC で送られている人にもまとめて返信したい！</li>
+<li>279 メールに署名を入れたい！</li>
+<li>280 メールにファイルを添付したい！</li>
+<li>281 届いているはずのメールが見当たらない！</li>
+<li>282 同期してもメールが届いていない！</li>
+<li>283 メールの受信間隔を指定したい！</li>
+<li>284 ＜迷惑メール＞フォルダーが表示されない！</li>
+<li>285 知らないアドレスからメールが来た！</li>
+<li>286 新しいフォルダーを作成したい！</li>
+<li>287 メールを別のフォルダーに移動したい！</li>
+<li>288 「フラグ」って何？</li>
+<li>289 複数のメールを素早く選択したい！</li>
+<li>290 メールを削除したい！</li>
+<li>291 削除したメールを元に戻したい！</li>
+<li>292 メールを完全に削除したい！</li>
+<li>293 メールを検索したい！</li>
+<li>294 メールアドレスを管理したい！</li>
+<li>295 「People」アプリに連絡先を登録したい！</li>
+<li>296 連絡先を「メール」アプリから呼び出したい！</li>
+<li>297 登録した連絡先情報を編集したい！</li>
+<li>298 「People」アプリからメールを作成したい！</li>
+<li>299 「People」アプリをもっと素早く開くには？</li>
+
+</ul>
+<h3>CHAPTER6　セキュリティの疑問解決＆便利技！</h3>
+<ul class="toc">
+<li>300 どうして個人情報に気を付ける必要があるの？</li>
+<li>301 個人情報として秘密にすべきものは？</li>
+<li>302 インターネットで個人情報を扱うときに気を付けることは？</li>
+<li>303 個人情報が流出するってどういうこと？</li>
+<li>304 どんなパスワードが適切なの？</li>
+<li>305 パスワードは定期的に変えるべきって本当？</li>
+<li>306 パスワードを忘れてしまった！</li>
+<li>307 Edgeは安全なブラウザーなの？</li>
+<li>308 保存済みのパスワードの情報を消したい！</li>
+<li>309 InPrivateブラウズって何？</li>
+<li>310 パソコンを共用している際に気を付けることは？</li>
+<li>311 閲覧履歴を消したい！</li>
+<li>312 「管理者」「標準ユーザー」の違いは？</li>
+<li>313 「管理者として〇〇してください」と表示された！</li>
+<li>314 プライバシーポリシーって何？</li>
+<li>315 SNSではどんなことに気を付ければいいの？</li>
+<li>316 パソコンの「ウイルス」って何？</li>
+<li>317 ウイルス以外の危険なソフトにはどんなものがあるの？</li>
+<li>318 ウイルスはどこから感染するの？</li>
+<li>319 ウイルスに感染したらどうなるの？</li>
+<li>320 ウイルスに感染しないために必要なことは？</li>
+<li>321 どんなWebページが危険か教えて！</li>
+<li>322 ウイルスファイルをダウンロードするとどうなるの？</li>
+<li>323 ウイルスはパソコンが自動で見つけてくれるの？</li>
+<li>324 ウイルスに感染したらどうすればいいの？</li>
+<li>325 市販のウイルス対策ソフトはどんなものがあるの？</li>
+<li>326 市販の対策ソフトを使うメリットって？</li>
+<li>327 市販の対策ソフトは何で選べばいいの？</li>
+<li>328 絶対に安全な使い方を教えて！</li>
+<li>329 Windows 10のセキュリティ機能はどうなっているの？</li>
+<li>330 Microsoft Defenderの性能はどうなの？</li>
+<li>331 Windowsのセキュリティ機能が最新か確認したい！</li>
+<li>332 念入りにウイルスチェックしたい！</li>
+<li>333 素早くウイルスチェックしたい！</li>
+<li>334 Windows のセキュリティ機能と他社のウイルス対策ソフトは同時に使えるの？</li>
+<li>335 「このアプリがデバイスに変更を加えることを許可しますか？」と出た！</li>
+<li>336 「ユーザーアカウント制御」がわずらわしい！</li>
+<li>337 Excelのファイルを開くとアラートが表示された！</li>
+<li>338 有名な企業からのメールは信用できる？</li>
+<li>339 迷惑メール対策を知りたい！</li>
+<li>340 迷惑メールの見分け方を知りたい！</li>
+<li>341 迷惑メールを振り分けたい！</li>
+
+</ul>
+<h3>CHAPTER7　写真・動画・音楽の活用技！</h3>
+<ul class="toc">
+<li>342 メモリーカードの選び方を教えて！</li>
+<li>343 画素数って何？</li>
+<li>344 デジタルカメラやスマホから写真を取り込みたい！</li>
+<li>345 デジタルカメラやスマホが認識されないときは？</li>
+<li>346 取り込んだ画像はどこに保存されるの？</li>
+<li>347 デジカメやCDを接続したときの動作を変更したい！</li>
+<li>348 「フォト」アプリの使い方を知りたい！</li>
+<li>349 写真を削除したい！</li>
+<li>350 写真をスライドショーで再生したい！</li>
+<li>351 写真をアルバムで整理したい！</li>
+<li>352 写真が見つからない！</li>
+<li>353 写真をきれいに修整したい！</li>
+<li>354 写真の向きを変えたい！</li>
+<li>355 写真の一部分だけを切り取りたい！</li>
+<li>356 写真をスライドショー動画にしたい！</li>
+<li>357 写真に書き込みをしたい！</li>
+<li>358 「ピクチャ」以外のフォルダーの写真も読み込みたい！</li>
+<li>359 写真をロック画面の壁紙にしたい！</li>
+<li>360 保存した写真を印刷したい！</li>
+<li>361 1 枚の用紙に複数の写真を印刷したい！</li>
+<li>362 写真の周辺が切れてしまう！</li>
+<li>363 デジタルカメラで撮ったビデオ映像を取り込みたい！</li>
+<li>364 デジタルカメラで撮ったビデオ映像を再生したい！</li>
+<li>365 パソコンでテレビは観られるの？</li>
+<li>366 パソコンで映画のDVDを観る方法を知りたい！</li>
+<li>367 Windows Media Playerで何ができるの？</li>
+<li>368 Windows Media Playerの起動方法を知りたい！</li>
+<li>369 ライブラリモードとプレイビューモードって何？</li>
+<li>370 プレイビューモードでの画面の見方を教えて！</li>
+<li>371 ライブラリモードでの画面の見方を教えて！</li>
+<li>372 音楽CDを再生したい！</li>
+<li>373 音楽CDの曲をパソコンに取り込みたい！</li>
+<li>374 取り込んだ曲をWindows Media Playerで聴きたい！</li>
+<li>375 プレイリストを作成したい！</li>
+<li>376 プレイリストを編集したい！</li>
+<li>377 プレイリストを削除したい！</li>
+<li>378 「Groove ミュージック」アプリで音楽を聴きたい！</li>
+<li>379 「Groove ミュージック」アプリの画面の見方を知りたい！</li>
+<li>380 曲を検索したい！</li>
+<li>381 再生リストを作って好きな曲だけを再生したい！</li>
+<li>382 再生リストを編集したい！</li>
+<li>383 再生リストを削除したい！</li>
+
+</ul>
+<h3>CHAPTER8　OneDriveとスマートフォンの便利技！</h3>
+<ul class="toc">
+<li>384 OneDriveは何ができるの？</li>
+<li>385 OneDriveにファイルを追加したい！</li>
+<li>386 OneDriveに表示されるアイコンは何？</li>
+<li>387 ブラウザーでOneDriveを使うには？</li>
+<li>388 同期が中断されてしまった！</li>
+<li>389 OneDriveからサインアウトするには？</li>
+<li>390 大きなファイルをOneDriveで送りたい！</li>
+<li>391 OneDriveでほかの人とデータを共有したい！</li>
+<li>392 共有する人を追加したい！</li>
+<li>393 共有を知らせるメールが届いたらどうすればよい？</li>
+<li>394 ほかの人との共有を解除したい！</li>
+<li>395 ほかのパソコンからOneDriveにアクセスしたい！</li>
+<li>396 OneDrive上のファイルを編集したい！</li>
+<li>397 OneDriveからファイルをダウンロードしたい！</li>
+<li>398 OneDrive上のファイルをOfficeで編集したい！</li>
+<li>399 重要度の低いファイルはオンラインにだけ残しておきたい！</li>
+<li>400 削除したOneDrive上のファイルを復活させたい！</li>
+<li>401 OneDriveの容量を増やしたい！</li>
+<li>402 OneDriveをスマートフォンで利用したい！</li>
+<li>403 スマートフォンと接続したい！</li>
+<li>404 iPhoneとAndroidスマートフォンは違うの？</li>
+<li>405 スマートフォンと接続するケーブルの種類について知りたい！</li>
+<li>406 iPhoneが認識されない！</li>
+<li>407 Androidスマートフォンが認識されない！</li>
+<li>408 iPhoneから写真を取り込みたい！</li>
+<li>409 Androidスマートフォンから写真を取り込みたい！</li>
+<li>410 音楽をiPhoneで再生したい！</li>
+<li>411 音楽をAndroidスマートフォンで再生したい！</li>
+<li>412 ワイヤレスで写真をスマートフォンと共有したい！</li>
+<li>413 iPhoneをWi-Fiに接続したい！</li>
+<li>414 AndroidスマートフォンをWi-Fiに接続したい！</li>
+<li>415 スマートフォンの写真をOneDriveで保存したい！</li>
+<li>416 OneDriveへの自動アップロードの設定は？</li>
+<li>417 Egdeはスマートフォンでも使えるの？</li>
+<li>418 お気に入りや閲覧履歴をスマートフォンで見たい！</li>
+<li>419 スマートフォンで見ていたWebページをパソコンで見たい！</li>
+<li>420 「スマホ同期」アプリは何ができるの？</li>
+<li>421 「スマホ同期」アプリでSMSを送りたい！</li>
+
+</ul>
+<h3>CHAPTER9　印刷と周辺機器の活用技！</h3>
+<ul class="toc">
+<li>422 プリンターにはどんな種類があるの？</li>
+<li>423 用紙にはどんな種類があるの？</li>
+<li>424 プリンターを使えるようにしたい！</li>
+<li>425 写真を印刷するときはどんな用紙を使えばいいの？</li>
+<li>426 印刷の向きや用紙サイズ，部数などを変更したい！</li>
+<li>427 印刷結果を事前に確認したい！</li>
+<li>428 印刷を中止したい！</li>
+<li>429 急いでいるのでとにかく早く印刷したい！</li>
+<li>430 特定のページだけを印刷したい！</li>
+<li>431 ページを縮小して印刷したい！</li>
+<li>432 印刷がかすれてしまう！</li>
+<li>433 インクの残量を確認したい！</li>
+<li>434 1枚に複数のページを印刷したい！</li>
+<li>435 パソコン外にファイルを保存するにはどうすればいいの？</li>
+<li>436 どこにどのケーブルを差し込むのかわからない！</li>
+<li>437 USBメモリーは何を見て選べばいい？</li>
+<li>438 USB端子はそのまま抜いてもいいの？</li>
+<li>439 USBメモリーの中身を表示したい！</li>
+<li>440 USBメモリーにファイルを保存する手順を教えて！</li>
+<li>441 USBメモリーを初期化したい！</li>
+<li>442 USBポートの数を増やしたい！</li>
+<li>443 SDカードを読み込むにはどうしたらいいの？</li>
+<li>444 Bluetooth機器を接続したい！</li>
+<li>445 パソコンがBluetoothに対応しているか確かめたい！</li>
+<li>446 ワイヤレスのキーボードやマウスを接続したい！</li>
+<li>447 あとからBluetoothに対応させることはできないの？</li>
+<li>448 Bluetoothの接続が切れてしまう！</li>
+<li>449 周辺機器を接続したときの動作を変更したい！</li>
+<li>450 ハードディスクの容量がいっぱいになってしまった！</li>
+<li>451 バックアップってどうすればいいの？</li>
+<li>452 ディスクの分類と用途を知りたい！</li>
+<li>453 ディスクを入れても何の反応もない！</li>
+<li>454 自分のパソコンで使えるメディアがわからない！</li>
+<li>455 ディスクを入れると表示される画面は何？</li>
+<li>456 どのメディアを使えばいいかわからない！</li>
+<li>457 ドライブからディスクが取り出せない！</li>
+<li>458 パソコンにディスクドライブがない！</li>
+<li>459 Blu-ray ディスクを読み込めるようにしたい！</li>
+<li>460 CD ／ DVD に書き込みたい！</li>
+<li>461 ライブファイルシステムで書き込む手順を知りたい！</li>
+<li>462 書き込んだファイルを削除したい！</li>
+<li>463 書き込み済みのCD ／ DVD にファイルを追加できる？</li>
+<li>464 マスターで書き込む手順を知りたい！</li>
+
+</ul>
+<h3>CHAPTER10　おすすめアプリの便利技！</h3>
+<ul class="toc">
+<li>465 Windows 10に入っているアプリにはどんなものがあるの？</li>
+<li>466 「カレンダー」アプリに予定を入力したい！</li>
+<li>467 予定を確認，修正したい！</li>
+<li>468 予定の通知パターンやアラームを設定したい！</li>
+<li>469 カレンダーに祝日を表示したい！</li>
+<li>470 現在地の天気を知りたい！</li>
+<li>471 「天気」アプリの地域を変更したい！</li>
+<li>472 「マップ」アプリの使い方を知りたい！</li>
+<li>473 「マップ」アプリでルート検索をしたい！</li>
+<li>474 忘れてはいけないことを画面に表示しておきたい！</li>
+<li>475 OneNoteでメモを残したい！</li>
+<li>476 ペイント3Dの使い方を知りたい！</li>
+<li>477 Windows 10でゲームを楽しみたい！</li>
+<li>478 Windows 10にアプリを追加したい！</li>
+<li>479 アプリの探し方がわからない！</li>
+<li>480 有料アプリの「無料試用版」って何？</li>
+<li>481 有料のアプリを購入するには？</li>
+<li>482 アプリをアップデートしたい！</li>
+<li>483 アプリをアンインストールしたい！</li>
+
+</ul>
+<h3>CHAPTER11　インストールと設定の便利技！</h3>
+<ul class="toc">
+<li>484 Windows 10が使えるパソコンの条件は？</li>
+<li>485 Windows 10にアップグレードするには？</li>
+<li>486 ファイルを消さずにパソコンをリフレッシュしたい！</li>
+<li>487 再インストールして購入時の状態に戻したい！</li>
+<li>488 ほかのパソコンからデータを移したい！</li>
+<li>489 正常に動いていた時点に設定を戻したい！</li>
+<li>490 Microsoft アカウントで何ができるの？</li>
+<li>491 ローカルアカウントとMicrosoftアカウントの違いは？</li>
+<li>492 インストール時にアカウントを登録しなかったらどうなるの？</li>
+<li>493 ローカルアカウントからMicrosoftアカウントに切り替えるには？</li>
+<li>494 Microsoftアカウントを作るにはどうすればいい？</li>
+<li>495 Microsoftアカウントで同期する項目を設定したい！</li>
+<li>496 Microsoftアカウント情報を確認するには？</li>
+<li>497 自分のアカウントの画像を変えたい！</li>
+<li>498 アカウントのパスワードを変更したい！</li>
+<li>499 家族用のアカウントを追加したい！</li>
+<li>500 アカウントを削除したい！</li>
+<li>501 子どもが使うパソコンの利用を制限したい！</li>
+<li>502 「管理者」って何？</li>
+<li>503 管理者のアカウントのパスワードを忘れてしまった！</li>
+<li>504 管理者か標準ユーザーかを確認したい！</li>
+<li>505 管理者と標準ユーザーを切り替えたい！</li>
+<li>506 Windows 10の設定をカスタマイズするには？</li>
+<li>507 暗証番号で素早くサインインしたい！</li>
+<li>508 ピクチャパスワードを利用したい！</li>
+<li>509 スリープを解除するときにパスワードを入力するのが面倒！</li>
+<li>510 パソコンが自動的にスリープするまでの時間を変更したい！</li>
+<li>511 通知を表示する長さを変えたい！</li>
+<li>512 通知をアプリごとにオン／オフしたい！</li>
+<li>513 通知を素早く消したい！</li>
+<li>514 作業中は通知を表示させたくない！</li>
+<li>515 位置情報を管理したい！</li>
+<li>516 ロック画面の画像を変えたい！</li>
+<li>517 ロック画面で通知するアプリを変更したい！</li>
+<li>518 「Windows スポットライト」って何？</li>
+<li>519 目に悪いと噂のブルーライトを抑えられない？</li>
+<li>520 タスクバーの検索ボックスを小さくしたい！</li>
+<li>521 タスクバーの位置やサイズを変えたい！</li>
+<li>522 離席したときにパソコンが自動でロックされるようにしたい！</li>
+<li>523 タブレットモードに切り替えたい！</li>
+<li>524 タブレットモードでもタスクバーにアプリを表示したい！</li>
+<li>525 拡大鏡機能を利用したい！</li>
+<li>526 Windows Updateって何？</li>
+<li>527 Windows UpdateでWindowsを最新の状態にしたい！</li>
+<li>528 近くのパソコンとファイルをやり取りしたい！</li>
+<li>529 不要なファイルが自動で削除されるようにしたい！</li>
+<li>530 ファイルを開くアプリをまとめて変更したい！</li>
+<li>531 Sモードって何？</li>
+<li>532 Sモードを解除したい！</li>
+<li>533 電源ボタンを押したときの動作を変更したい！</li>
+<li>534 アプリの背景色を暗くしたい！</li>
+<li>535 マウスポインターを見やすくしたい！</li>
+<li>536 マウスポインターの色を変えたい！</li>
+<li>537 マウスポインターの移動スピードを変えたい！</li>
+<li>538 マウスの設定を左利き用に変えたい！</li>
+<li>539 ダブルクリックがうまくできない！</li>
+<li>540 ハードディスクの空き容量を確認したい！</li>
+<li>541 特にファイルを保存していないのに空き容量がなくなってしまった！</li>
+<li>542 ハードディスクの空き容量を増やしたい！</li>
+<li>543 ハードディスクの最適化って何？</li>
+<li>544 スクリーンセーバーを設定したい！</li>
+<li>545 スクリーンセーバーの起動時間を変えたい！</li>
+<li>546 デスクトップの色を変えたい！</li>
+<li>547 デスクトップの背景を変更したい！</li>
+<li>548 デスクトップの色や背景をガラリと変えたい！</li>
+
+</ul>
+<h3>CHAPTER12　Web会議＆テレワークの基礎知識と実践便利技！</h3>
+<ul class="toc">
+<li>549 テレワークって何？</li>
+<li>550 テレワークをするうえで気を付けることは？</li>
+<li>551 テレワークに向いているパソコンは？</li>
+<li>552 テレワークで求められる機能は何があるの？</li>
+<li>553 自宅にインターネット環境がない！</li>
+<li>554 業務にフリーWi-Fiを利用してもいいの？</li>
+<li>555 ノートパソコンの画面では小さくて作業しにくい！</li>
+<li>556 外部ディスプレイの設定を変更したい！</li>
+<li>557 自宅のパソコンにOfficeが入っていない！</li>
+<li>558 GoogleでもOfficeと似た機能があるの？</li>
+<li>559 Web会議をするうえで気を付けることは？</li>
+<li>560 Web会議を行うには何が必要なの？</li>
+<li>561 Web会議の画質や音質を向上させたい！</li>
+<li>562 大部屋の音声を1つのマイクで拾いたい！</li>
+<li>563 マイクの設定を確認したい！</li>
+<li>564 カメラの設定を確認したい！</li>
+<li>565 Web会議中に耳障りな音が入ってしまう！</li>
+<li>566 Web会議でノイズが消えない！</li>
+<li>567 しゃべるとボソボソした音が混ざる！</li>
+<li>568 音声が途切れる，聞こえないと言われる！</li>
+<li>569 Web会議の接続を安定させる方法はある？</li>
+<li>570 Web会議用のアプリにはどのようなものがあるの？</li>
+<li>571 スマートフォンからでもWeb会議に参加できるの？</li>
+<li>572 Skypeとは？</li>
+<li>573 SkypeでWeb会議を開催したい！</li>
+<li>574 SkypeのWeb会議に参加するには？</li>
+<li>575 SkypeのWeb会議の背景を変更したい！</li>
+<li>576 Skypeに連絡先を登録したい！</li>
+<li>577 Skypeでメッセージをやり取りしたい！</li>
+<li>578 Skypeで通話したい！</li>
+<li>579 Teamsとは？</li>
+<li>580 Teamsを使い始めるにはどうすればいいの？</li>
+<li>581 Teamsにサインインするには？</li>
+<li>582 チームに参加したい！</li>
+<li>583 チームを作成したい！</li>
+<li>584 チームにユーザーを追加したい！</li>
+<li>585 チャネルに参加したい！</li>
+<li>586 チャネルを作成したい！</li>
+<li>587 チャネルにユーザーを追加したい！</li>
+<li>588 TeamsのWeb会議に参加するには？</li>
+<li>589 TeamsでWeb会議を開催したい！</li>
+<li>590 Web会議を終了するには？</li>
+<li>591 事前にWeb会議を予約したい！</li>
+<li>592 外部のユーザーの参加を許可するには？</li>
+<li>593 会議の参加前にカメラやマイクの設定を確認したい！</li>
+<li>594 Web会議中にカメラやマイクの設定を確認したい！</li>
+<li>595 カメラやマイクを一時的にオフにしたい！</li>
+<li>596 画面に映っている自分の顔が暗い！</li>
+<li>597 会議の参加者を確認したい！</li>
+<li>598 会議の参加者と画面を共有したい！</li>
+<li>599 会議中に参加者とチャットしたい！</li>
+<li>600 発言前に挙手したい！</li>
+<li>601 TeamsのWeb会議の背景を変更したい！</li>
+<li>602 会社のパソコンを自宅から操作したい！</li>
+<li>603 リモートデスクトップには何が必要なの？</li>
+<li>604 リモートデスクトップの画面の見方を知りたい！</li>
+<li>605 リモートデスクトップの設定方法を知りたい！</li>
+<li>606 リモートデスクトップを終了したい！</li>
+<li>607 リモート先に接続できなくなってしまった！</li>
+<li>608 Windowsの自動更新・再起動を停止させたい！</li>
+</ul>
+
+<ul class="toc">
+<li>用語集</li>
+<li>ショートカットキー</li>
+<li>目的別索引</li>
+<li>用語索引</li>
+</ul>
+
+<ul class="toc">
+<li>日本語入力対応表・厳選ショートカットキー集付属</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<h4>電子版用ダウンロード</h4>
+<p><a href="https://gihyo.jp/dp/ebook/2021/978-4-297-12190-7">電子版</a>用に，<wbr/>付属小冊子「Microsoft Teamsの使い方」のPDFを以下から入手できます。ダウンロードには電子版本紙に掲載されているIDとパスワードが必要です。</p>
+
+<style>p.error{color:red;font-weight:bold;position:absolute;margin-top:1em}.download-account{display:block;padding:1em;margin-top:1em;border:1px solid #E5E5E5;margin-bottom:1em}.download-account p{margin:5px 0}.download-account .filename{font-size:14px;color:#888;text-align:right;margin-bottom:-5px}.download-account label{display:block;text-indent:0;width:5em;float:left;margin-right:1em;vertical-align:middle}.download-account input{-webkit-appearance:none;border:1px solid #BBB;font-size:16px;padding:5px;border-radius:4px;width:10em}.download-account input[type="submit"]{display:block;width:10.5em;background:#08F;color:white;font-weight:bold;border:1px #04D solid;float:right;margin-top:-70px;line-height:53px;-webkit-box-sizing:border-box;box-sizing:border-box}.download-account input[type="submit"]:hover{background:#04D}.mobile .download-account label{float:none}.mobile .download-account input:not([type="submit"]){width:auto}.mobile .download-account input[type="submit"]{float:none;margin-top:15px}</style><form action="#support" method="post" class="download-account uk7460bec2e0b853d7bca80b7ea8f03640"><p><label>ID</label><input type="text" name="u" required></p><p><label>パスワード</label><input type="password" name="p" required></p><p><input type="submit" value="ダウンロード"><input type="hidden" name="t" value="1628594175"></p><p class="filename">Win10_Mteams_Guide.pdf（8MB）</p><input type="hidden" name="fn" value="Win10_Mteams_Guide.pdf"></form><script defer>(function(){document.querySelector('.uk7460bec2e0b853d7bca80b7ea8f03640 input[type="submit"]').addEventListener('click',function(e){document.querySelector('.uk7460bec2e0b853d7bca80b7ea8f03640').submit();});}());</script>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2021 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2021\/978-4-297-12190-7","path":"\/dp\/ebook\/2021\/978-4-297-12190-7","targetId":"978-4-297-12190-7","parent":"\/dp\/genre\/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;gtag('event','JSError',{'evetn_category':'Error','event_label':mes});};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

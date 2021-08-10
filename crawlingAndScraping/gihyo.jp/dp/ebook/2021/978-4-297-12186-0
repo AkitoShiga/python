@@ -1,0 +1,505 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Premiere Proパーフェクトガイド［改訂2版］ | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="Adobeのハイエンドの動画編集ソフト「Premiere Pro」の機能を解説する「Premiere Proパーフェクトガイド［CC対応版］」の改訂版です。クリップの管理，カット編集，カラー調整，各種エフェクトや画面切り替えなどの演出効果，タイトルの加工，レンダリング，動画の出力など，Premiere Proで映像作品を制作する操作＆テクニックを紹介します。Premiere Proによる動画編集の教科書として使うほか，映像制作の現場でPremiere Proの機能を手早く調べるための辞書としても活用できます。"/>
+  <meta name="keywords" content="小原裕太電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0422.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0425.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="Premiere Proパーフェクトガイド［改訂2版］ | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Adobeのハイエンドの動画編集ソフト「Premiere Pro」の機能を解説する「Premiere Proパーフェクトガイド［CC対応版］」の改訂版です。クリップの管理，カット編集，カラー調整，各種エフェクトや画面切り替えなどの演出効果，タイトルの加工，レンダリング，動画の出力など，Premiere Proで映像作品を制作する操作＆テクニックを紹介します。Premiere Proによる動画編集の教科書として使うほか，映像制作の現場でPremiere Proの機能を手早く調べるための辞書としても活用できます。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2021/978-4-297-12186-0"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12186-0.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL906V3TN7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DL906V3TN7');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%BB%E7%B4%A0%E6%9D%90%E9%9B%86" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%82%AC%E3%82%A4%E3%83%89">パーフェクトガイド</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Premiere Pro<wbr>パーフェクトガイド<br><span class="sub">［改訂<wbr>2<wbr>版］</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-12186-0.jpg" alt="Premiere Proパーフェクトガイド［改訂2版］"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">小原裕太　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2021-07-09">2021年7月9日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2021-07-09">2021年7月9日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2021/978-4-297-12185-3" target="_blank">2021年7月14日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">3,600円 <a id="pid403279" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">400</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2021/978-4-297-12186-0" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2021/978-4-297-12186-0" data-text="Premiere Proパーフェクトガイド［改訂2版］ #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2021/978-4-297-12186-0" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2021/978-4-297-12186-0" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>Adobeのハイエンドの動画編集ソフト「Premiere Pro」の機能を解説する「Premiere Proパーフェクトガイド［CC対応版］」の改訂版です。クリップの管理，<wbr/>カット編集，<wbr/>カラー調整，<wbr/>各種エフェクトや画面切り替えなどの演出効果，<wbr/>タイトルの加工，<wbr/>レンダリング，<wbr/>動画の出力など，<wbr/>Premiere Proで映像作品を制作する操作＆テクニックを紹介します。Premiere Proによる動画編集の教科書として使うほか，<wbr/>映像制作の現場でPremiere Proの機能を手早く調べるための辞書としても活用できます。</p><h3>こんな方におすすめ</h3>
+<ul><li>Premiere Proで映像作品を作りたい人，<wbr/>Premiere Proの機能を手早く調べたい人</li></ul>
+<aside class="author"><h3>小原裕太（おばらゆうた）</h3><p>外国語辞典編集者を経て，<wbr/>幅広く執筆するフリーライター。Macやスマートフォン，<wbr/>デジタルカメラに関する著作多数。<br />
+<a href="mailto:obayou@gmail.com">obayou@gmail.com</a></p></aside><section id="sample"><h2>サンプル</h2><ul class="pdf"><li><a href="https://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12185-3/9784297121853-01.pdf" target="_blank">サンプルPDFファイル1</a>（10,216KB）</li></ul>
+</section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="42572">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>CHAPTER00　Premiere Proの基本</h3>
+<ul class="toc">
+<li>SECTION01　Premiere Proについて理解する</li>
+<li>SECTION02　Premiere Proを起動／終了する</li>
+<li>SECTION03　画面各部の名称を知る</li>
+<li>SECTION04　ワークスペースを切り替える</li>
+<li>SECTION05　パネルを表示する／閉じる</li>
+<li>SECTION06　パネルをグループ化する</li>
+<li>SECTION07　パネルを並べ替える</li>
+<li>SECTION08　パネルをウィンドウ表示にする</li>
+<li>SECTION09　パネルの配置を移動する</li>
+<li>SECTION10　パネルグループのサイズを変更する</li>
+<li>SECTION11　パネルグループの表示形式を切り替える</li>
+<li>SECTION12　ワークスペースを初期化する</li>
+<li>SECTION13　ワークスペースをプリセットとして保存する</li>
+<li>SECTION14　ワークスペースを削除／並べ替える</li>
+<li>SECTION15　ビデオの形式を理解する</li>
+<li>SECTION16　フレームとフレームレートを理解する</li>
+<li>SECTION17　タイムラインを理解する</li>
+<li>SECTION18　ビデオの解像度を理解する</li>
+<li>SECTION19　動画制作のワークフローを理解する</li>
+</ul>
+<h3>CHAPTER01　クリップ管理</h3>
+<ul class="toc">
+<li>SECTION01　「クリップ管理」機能を理解する</li>
+<li>SECTION02　プロジェクトを作成する</li>
+<li>SECTION03　ビデオをパソコンに取り込む</li>
+<li>SECTION04　ファイルをプロジェクトに読み込む</li>
+<li>SECTION05　連番の写真をビデオとして読み込む</li>
+<li>SECTION06　クリップを再生する</li>
+<li>SECTION07　クリップをフレーム単位で再生する</li>
+<li>SECTION08　再生画面を拡大表示する</li>
+<li>SECTION09　再生画面の表示品質を変更する</li>
+<li>SECTION10　再生画面のボタンをカスタマイズする</li>
+<li>SECTION11　クリップ名を変更する</li>
+<li>SECTION12　クリップのアイコン表示／リスト表示を切り替える</li>
+<li>SECTION13　クリップの表示サイズを変更する</li>
+<li>SECTION14　ビンを作成して素材を整理する</li>
+<li>SECTION15　ビンの中身を表示する</li>
+<li>SECTION16　クリップにラベルを付ける</li>
+<li>SECTION17　ラベルの初期設定を変更する</li>
+<li>SECTION18　クリップやビンを削除する</li>
+<li>SECTION19　クリップやビンを非表示にする</li>
+<li>SECTION20　クリップの情報を確認する</li>
+<li>SECTION21　プロジェクトを保存する／読み込む</li>
+<li>SECTION22　プロジェクトの自動保存を設定する</li>
+<li>SECTION23　作業ファイルの保存先を指定する</li>
+<li>SECTION24　プロキシワークフローで編集負荷を軽減する</li>
+<li>SECTION25　既存のクリップからプロキシを作成する</li>
+<li>SECTION26　プロキシの映像を再生する</li>
+<li>SECTION27　クリップのリンクを確認する</li>
+</ul>
+<h3>CHAPTER02　カット編集</h3>
+<ul class="toc">
+<li>SECTION01　「カット編集」機能を理解する</li>
+<li>SECTION02　プリセットからシーケンスを作成する</li>
+<li>SECTION03　クリップに合わせたシーケンスを作成する</li>
+<li>SECTION04　クリップをドラッグ&ドロップで挿入する</li>
+<li>SECTION05　クリップを再生ヘッドの位置に挿入する</li>
+<li>SECTION06　クリップを別のトラックに配置する</li>
+<li>SECTION07　クリップを別トラックの指定した位置に配置する</li>
+<li>SECTION08　クリップを上書きする</li>
+<li>SECTION09　クリップをクリップ間に挿入する</li>
+<li>SECTION10　クリップの長さを変えずに置き換える</li>
+<li>SECTION11　ツールを利用する</li>
+<li>SECTION12　クリップを選択する</li>
+<li>SECTION13　クリップをまとめて選択する</li>
+<li>SECTION14　クリップを移動する</li>
+<li>SECTION15　クリップを分割する</li>
+<li>SECTION16　クリップを複製する</li>
+<li>SECTION17　選択ツールでトリミングする</li>
+<li>SECTION18　＜リップルツール＞でトリミングする</li>
+<li>SECTION19　＜ローリングツール＞でトリミングする</li>
+<li>SECTION20　＜スリップツール＞でトリミングする</li>
+<li>SECTION21　＜スライドツール＞でトリミングする</li>
+<li>SECTION22　＜ソース＞パネルでトリミングする</li>
+<li>SECTION23　＜プログラム＞パネルでトリミングする</li>
+<li>SECTION24　クリップをタイムラインから削除する</li>
+<li>SECTION25　クリップ間のスペースを削除する</li>
+<li>SECTION26　タイムラインの映像から元クリップを探す</li>
+<li>SECTION27　重複したクリップをピックアップする</li>
+<li>SECTION28　タイムラインの時間軸／トラックの幅を変更する</li>
+<li>SECTION29　トラックを追加／削除する</li>
+<li>SECTION30　トラックをロックする</li>
+<li>SECTION31　長尺のクリップから短いクリップを作成する</li>
+<li>SECTION32　複数のクリップをネスト化してまとめる</li>
+<li>SECTION33　タイムラインに目印を付ける</li>
+<li>SECTION34　操作を取り消す／やり直す</li>
+
+</ul>
+<h3>CHAPTER03　エフェクト</h3>
+<ul class="toc">
+<li>SECTION01　「エフェクト」機能を理解する</li>
+<li>SECTION02　クリップにエフェクトを適用する</li>
+<li>SECTION03　エフェクトの効果を調整する</li>
+<li>SECTION04　エフェクトの調整をリセットする</li>
+<li>SECTION05　エフェクトを削除／非表示にする</li>
+<li>SECTION06　複数のエフェクトを適用する</li>
+<li>SECTION07　エフェクトの適用順を変更する</li>
+<li>SECTION08　同じエフェクトをほかのクリップに適用する</li>
+<li>SECTION09　映像の一部分にエフェクトを適用する</li>
+<li>SECTION10　フリーハンドでマスクを描く</li>
+<li>SECTION11　調整レイヤーにエフェクトを適用する</li>
+<li>SECTION12　映像の雰囲気を一変させる　～スタイライズ</li>
+<li>SECTION13　映像を歪ませる　～ディストーション</li>
+<li>SECTION14　映像を隠す　～トランジション</li>
+<li>SECTION15　映像を変形させる　～トランスフォーム</li>
+<li>SECTION16　映像のノイズを補正する／強調する　～ノイズ&グレイン</li>
+<li>SECTION17　映像にテキストを重ねて表示する　～ビデオ</li>
+<li>SECTION18　映像の明るさやコントラストを調整する　～　SDR最適化</li>
+<li>SECTION19　被写体の輪郭や境界線をくっきりさせる　～シャープ</li>
+<li>SECTION20　映像にソフト効果を加える　～ブラー</li>
+<li>SECTION21　映像に新たな要素を加える　～描画</li>
+<li>SECTION22　映像の外枠を立体的に見せる　～遠近</li>
+</ul>
+<h3>CHAPTER04　カラー調整</h3>
+<ul class="toc">
+<li>SECTION01　「カラー調整」機能を理解する</li>
+<li>SECTION02　カラー調整用のパネルの見方を理解する</li>
+<li>SECTION03　Log撮影された動画のカラー調整を理解する</li>
+<li>SECTION04　Log動画にLUTを適用する</li>
+<li>SECTION05　白い部分を基準に色合いを補正する</li>
+<li>SECTION06　ホワイトバランスを手動で補正する</li>
+<li>SECTION07　色かぶりを補正する</li>
+<li>SECTION08　映像全体の明るさを調整する</li>
+<li>SECTION09　コントラストを調整する</li>
+<li>SECTION10　明るい部分だけを調整する</li>
+<li>SECTION11　暗い部分だけを調整する</li>
+<li>SECTION12　色の鮮やかさを調整する</li>
+<li>SECTION13　＜エフェクトコントロール＞パネルで調整する</li>
+<li>SECTION14　プリセットで写真の色合いを一変させる</li>
+<li>SECTION15　シャープや彩度を調整する</li>
+<li>SECTION16　ハイライト／シャドウごとに色を変化させる</li>
+<li>SECTION17　RGBカーブを理解する</li>
+<li>SECTION18　RGBカーブで直観的に明るさを補正する</li>
+<li>SECTION19　RGBチャンネルごとに明るさを調整する</li>
+<li>SECTION20　色相／彩度カーブを理解する</li>
+<li>SECTION21　色相／彩度カーブで色ごとに彩度を補正する</li>
+<li>SECTION22　階調ごとに色を置き換える</li>
+<li>SECTION23　指定した色だけを調整／加工する</li>
+<li>SECTION24　周辺光量を増減させる</li>
+<li>SECTION25　＜Lumetriプリセット＞エフェクトで調整する</li>
+<li>SECTION26　そのほかのカラー調整エフェクトを利用する</li>
+<li>SECTION27　映像全体／一部をモノクロにする</li>
+<li>SECTION28　カラー調整設定をプリセットとして保存する</li>
+<li>SECTION29　カラー調整設定をファイルとして保存する</li>
+</ul>
+<h3>CHAPTER05　演出効果</h3>
+<ul class="toc">
+<li>SECTION01　「映像の演出」機能を理解する</li>
+<li>SECTION02　クリップをスロー／早送り再生する</li>
+<li>SECTION03　レート調整ツールでスロー／早送り再生する</li>
+<li>SECTION04　クリップを逆再生する</li>
+<li>SECTION05　目的の場面で一時的に停止させる</li>
+<li>SECTION06　トランジションを適用する</li>
+<li>SECTION07　トランジションを置き換える</li>
+<li>SECTION08　トランジションを削除する</li>
+<li>SECTION09　トランジションの効果時間を変更する</li>
+<li>SECTION10　トランジションの効果時間をドラッグで変更する</li>
+<li>SECTION11　トランジションの位置を変更する</li>
+<li>SECTION12　トランジションの位置をメニューで調整する</li>
+<li>SECTION13　トランジション開始／終了時の効果を確認する</li>
+<li>SECTION14　トランジションのアニメーション方向を変更する</li>
+<li>SECTION15　トランジションでフェードイン／フェードアウトを設定する</li>
+<li>SECTION16　モーションで動画を移動する</li>
+<li>SECTION17　モーションで動画を拡大／縮小する</li>
+<li>SECTION18　モーションで動画を回転する</li>
+<li>SECTION19　モーションで動画を徐々に透明にする</li>
+<li>SECTION20　モーションで映像の再生速度を変化させる</li>
+<li>SECTION21　モーションを取り消す</li>
+<li>SECTION22　モーションでエフェクトを動かす</li>
+<li>SECTION23　パン&ズームで映像を演出する</li>
+<li>SECTION24　被写体の動きに合わせてエフェクトを移動させる</li>
+</ul>
+<h3>CHAPTER06　合成</h3>
+<ul class="toc">
+<li>SECTION01　「合成」機能を理解する</li>
+<li>SECTION02　小さな枠に別の映像を重ねる</li>
+<li>SECTION03　ワイプをドロップシャドウで立体的にする</li>
+<li>SECTION04　ワイプをボタン状にして立体的にする</li>
+<li>SECTION05　ワイプを3D風に変形する</li>
+<li>SECTION06　傾けたワイプに影を付ける</li>
+<li>SECTION07　ピクチャインピクチャのプリセットを使う</li>
+<li>SECTION08　不透明度と描画モードで合成する</li>
+<li>SECTION09　映像の一部を切り取って合成する</li>
+<li>SECTION10　トランジションのエフェクトで合成する</li>
+<li>SECTION11　特定の色を透明にして合成する　～　Ultraキー</li>
+<li>SECTION12　特定の色を透明にして合成する　～カラーキー</li>
+<li>SECTION13　暗い部分を透明にして合成する　～ルミナンスキー</li>
+<li>SECTION14　マット画像をPhotoshopで作成する</li>
+<li>SECTION15　マット画像を合成する　～アルファチャンネルキー</li>
+<li>SECTION16　図形で映像を切り抜いて合成する　～イメージマットキー</li>
+<li>SECTION17　図形のクリップで映像を切り抜いて合成する　～トラックマットキー</li>
+<li>SECTION18　カラーマットを合成する　～異なるマット</li>
+<li>SECTION19　赤以外の色を透明にして合成する　～赤以外キー</li>
+</ul>
+<h3>CHAPTER07　タイトル</h3>
+<ul class="toc">
+<li>SECTION01　「タイトル」機能を理解する</li>
+<li>SECTION02　テキストボックスを作成する</li>
+<li>SECTION03　サイズが固定されたテキストボックスを作成する</li>
+<li>SECTION04　テキストを削除する</li>
+<li>SECTION05　テキストを移動する</li>
+<li>SECTION06　テキストボックスを拡大／縮小する</li>
+<li>SECTION07　テキストボックスを回転する</li>
+<li>SECTION08　テキストボックスを映像の中央に揃える</li>
+<li>SECTION09　テキストボックス内のテキストの配置を揃える</li>
+<li>SECTION10　インデントの幅を調整する</li>
+<li>SECTION11　文字間隔を調整する</li>
+<li>SECTION12　行間隔を調整する</li>
+<li>SECTION13　テキストのフォントを変更する</li>
+<li>SECTION14　テキストを透過させる</li>
+<li>SECTION15　テキストカラーを変更する</li>
+<li>SECTION16　テキストに縁取りを付ける</li>
+<li>SECTION17　テキストに影を付ける</li>
+<li>SECTION18　テキストボックスをグループ化する</li>
+<li>SECTION19　同じ書式をほかのテキストにも適用する</li>
+<li>SECTION20　テキストをグラデーションで塗る</li>
+<li>SECTION21　テキストを立体的にする</li>
+<li>SECTION22　テキストの中に映像を合成する</li>
+<li>SECTION23　テキストが徐々に現れる／消えるようにする</li>
+<li>SECTION24　図形を描く</li>
+<li>SECTION25　フォントを追加する</li>
+<li>SECTION26　テンプレートでタイトルを作成する</li>
+<li>SECTION27　スタッフロールを作成する</li>
+<li>SECTION28　テロップをスクロールさせる</li>
+<li>SECTION29　タイトルをファイルとして保存する</li>
+<li>SECTION30　モーショングラフィックステンプレートを追加する</li>
+</ul>
+<h3>CHAPTER08　オーディオ</h3>
+<ul class="toc">
+<li>SECTION01　「オーディオ」機能を理解する</li>
+<li>SECTION02　クリップの音量を調整する</li>
+<li>SECTION03　＜エフェクトコントロール＞パネルで音量を調整する</li>
+<li>SECTION04　＜オーディオトラックミキサー＞パネルで音量を調整する</li>
+<li>SECTION05　チャンネルごとに音量を調整する</li>
+<li>SECTION06　＜オーディオクリップミキサー＞パネルでチャンネルごとに音量を調整する</li>
+<li>SECTION07　チャンネルのバランスを調整する</li>
+<li>SECTION08　映像にBGMを付ける</li>
+<li>SECTION09　音声クリップをトリミングする</li>
+<li>SECTION10　クリップを映像と音声に分離する</li>
+<li>SECTION11　波形の表示／非表示を切り替える</li>
+<li>SECTION12　キーフレームでフェードイン／フェードアウトを設定する</li>
+<li>SECTION13　トランジションでフェードイン／フェードアウトを設定する</li>
+<li>SECTION14　クリップの音量を必要に応じて上げ下げする</li>
+<li>SECTION15　エフェクトで音を変化させる</li>
+<li>SECTION16　エフェクトを専用画面で調整する</li>
+<li>SECTION17　エフェクトの効果を同一クリップ内でオン／オフにする</li>
+<li>SECTION18　プリセットで音声の内容に応じた補正をする</li>
+<li>SECTION19　音声だけを再生する</li>
+<li>SECTION20　指定した範囲だけを再生する</li>
+<li>SECTION21　音声クリップの編集をリセットする</li>
+<li>SECTION22　音声を一時的に消す／特定トラックの音声だけを残す</li>
+<li>SECTION23　すべてのクリップの音量を揃える</li>
+<li>SECTION24　シーケンス全体の音量を調整する</li>
+<li>SECTION25　シーケンス全体にエフェクトを適用する</li>
+<li>SECTION26　ナレーション録音の準備をする</li>
+<li>SECTION27　ナレーションを録音する</li>
+</ul>
+<h3>CHAPTER09　エンコード</h3>
+<ul class="toc">
+<li>SECTION01　「エンコード」機能を理解する</li>
+<li>SECTION02　シーケンスをファイルとして書き出す</li>
+<li>SECTION03　エンコードの画質を調整する</li>
+<li>SECTION04　エンコード時に解像度を変更する</li>
+<li>SECTION05　エンコード時にエフェクトを適用する</li>
+<li>SECTION06　エンコード時に音質を変更する</li>
+<li>SECTION07　ファイルに所有者情報を含める</li>
+<li>SECTION08　エンコード設定を保存する</li>
+<li>SECTION09　動画をSNSに投稿する</li>
+<li>SECTION10　Media Encoderでシーケンスをまとめて書き出す</li>
+<li>SECTION11　Media Encoderでエンコード設定を変更する</li>
+<li>SECTION12　Media Encoderでプリセットをキューに適用する</li>
+<li>SECTION13　プリセットをファイルとして書き出す</li>
+</ul>
+<h3>CHAPTER10　VR動画編集</h3>
+<ul class="toc">
+<li>SECTION01　「VR」を理解する</li>
+<li>SECTION02　VR動画を編集可能な形式に変換する</li>
+<li>SECTION03　動画をVRビデオモードで表示する</li>
+<li>SECTION04　視界が自動的に移動するモーションを設定する</li>
+<li>SECTION05　VR素材の解像度を揃える</li>
+<li>SECTION06　VR動画にトランジションを設定する</li>
+<li>SECTION07　VR動画にタイトルを付ける</li>
+<li>SECTION08　VR動画をエンコードする</li>
+</ul>
+<h3>Appendix　外部ツール連携</h3>
+<ul class="toc">
+<li>SECTION01　「Adobe After Effects」を理解する</li>
+<li>SECTION02　After Effectsに素材を読み込む</li>
+<li>SECTION03　コンポジションをPremiere Proのクリップにする</li>
+<li>SECTION04　Premiere Proのクリップをコンポジションにする</li>
+<li>SECTION05　After Effectsでエフェクトを適用する</li>
+<li>SECTION06　アニメーションにするエフェクトを適用する</li>
+<li>SECTION07　After Effectsで再生速度を変化させる</li>
+<li>SECTION08　After Effectsでトランジションを適用する</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書の解説で使用しているサンプルファイルをダウンロードできます。<br />
+以下のリンクをクリックして，<wbr/>お使いのパソコンに保存してください。<br />
+ダウンロード後は圧縮ファイル（ZIPファイル）の状態なので，<wbr/>展開してから使用してください。なお，<wbr/>提供しているのは解説に使用している素材動画ファイルです。解説に使用している箇所との関連はなく，<wbr/>順不同で収録しています。</p>
+
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12185-3/download/sample_01.zip">sample_01.zip</a></dd>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12185-3/download/sample_02.zip">sample_02.zip</a></dd>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12185-3/download/sample_03.zip">sample_03.zip</a></dd>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12185-3/download/sample_04.zip">sample_04.zip</a></dd>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12185-3/download/sample_05.zip">sample_05.zip</a></dd>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12185-3/download/sample_06.zip">sample_06.zip</a></dd>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2021/978-4-297-12185-3/download/sample_07.zip">sample_07.zip</a></dd>
+</dl>
+
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2021 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2021\/978-4-297-12186-0","path":"\/dp\/ebook\/2021\/978-4-297-12186-0","targetId":"978-4-297-12186-0","parent":"\/dp\/genre\/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%BB%E7%B4%A0%E6%9D%90%E9%9B%86","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;gtag('event','JSError',{'evetn_category':'Error','event_label':mes});};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

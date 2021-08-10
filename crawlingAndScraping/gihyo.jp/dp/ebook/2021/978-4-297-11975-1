@@ -1,0 +1,268 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Software Design 2021年9月号 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="第1特集Rustでわかるメモリ管理しくみを知る／アプリを作る／ライブラリを読むプログラミング言語Rustは人気の割に，難しいという意見もよく目にします。その理由の1つは，ライフタイムや所有権といった独自のメモリ管理機能にある様子。本特集では，そうした難所を乗り越えられるよう，しくみから活用方法まで徹底的に解説します。プログラムにおけるメモリとメモリ管理，そしてRustのメモリ管理のしくみを説明したあと，HTTPサーバの実装を通して実際にメモリ割り当てを行います。さらに，普段目にする機会の少ないライブラリ内部のメモリ管理をも確認します。さあ，恐れることなく飛び込んでみましょう！　なお，環境構築や必要なツールのインストール方法は第4章で解説しています。第2特集BigQueryが分析基盤に選ばれる理由新戦略ETLT［抽出・変換・書込］機能紹介近年，データウェアハウス（DWH）としてGoogleの「BigQuery」がよく利用されています。従来のデータ分析基盤は，データを抽出（Extract）し，扱いやすい形式に変換（Transform）してDWHに書き込む（Load）という，ETLと呼ばれるパターンが主流でした。しかし，BigQueryを使った基盤では，分析のための本格的なデータ変換は，リソースが豊富でフルマネージドなBigQuery上であらためて行うETLTというパターンがよく採用されると言います。本特集では，このETLTに着目し，BigQueryでデータ分析基盤を構築するためのデザインパターンを示します。みなさんのデータ分析のニーズに合うかどうかの判断材料として，データを抽出・変換・書き込みする機能や，分析するための機能を紹介します。短期連載PHPカンファレンス2021通信［1］PHP8.0のアトリビュートについてPHPカンファレンス2021連動企画ということで，PHPカンファレンス登壇常連者とともに短期連載を全3回で行います。内容については，今どきのPHPについてです。第1回は，PHP 8.0から導入されたアトリビュートとその活用について深掘りしたいと思います。短期連載GitOpsで作るKubernetesのCI/CD環境［3］GitOpsを動かしてみよう本連載ではKubernetes環境向けのCI/CD手法であるGitOpsについて解説します。GitOpsがどのようなものなのかという基本的な部分から，実際に利用するツールやセットアップ方法，さらに実践的なポイントにわたって紹介します。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0422.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0425.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="Software Design 2021年9月号 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="第1特集Rustでわかるメモリ管理しくみを知る／アプリを作る／ライブラリを読むプログラミング言語Rustは人気の割に，難しいという意見もよく目にします。その理由の1つは，ライフタイムや所有権といった独自のメモリ管理機能にある様子。本特集では，そうした難所を乗り越えられるよう，しくみから活用方法まで徹底的に解説します。プログラムにおけるメモリとメモリ管理，そしてRustのメモリ管理のしくみを説明したあと，HTTPサーバの実装を通して実際にメモリ割り当てを行います。さらに，普段目にする機会の少ないライブラリ内部のメモリ管理をも確認します。さあ，恐れることなく飛び込んでみましょう！　なお，環境構築や必要なツールのインストール方法は第4章で解説しています。第2特集BigQueryが分析基盤に選ばれる理由新戦略ETLT［抽出・変換・書込］機能紹介近年，データウェアハウス（DWH）としてGoogleの「BigQuery」がよく利用されています。従来のデータ分析基盤は，データを抽出（Extract）し，扱いやすい形式に変換（Transform）してDWHに書き込む（Load）という，ETLと呼ばれるパターンが主流でした。しかし，BigQueryを使った基盤では，分析のための本格的なデータ変換は，リソースが豊富でフルマネージドなBigQuery上であらためて行うETLTというパターンがよく採用されると言います。本特集では，このETLTに着目し，BigQueryでデータ分析基盤を構築するためのデザインパターンを示します。みなさんのデータ分析のニーズに合うかどうかの判断材料として，データを抽出・変換・書き込みする機能や，分析するための機能を紹介します。短期連載PHPカンファレンス2021通信［1］PHP8.0のアトリビュートについてPHPカンファレンス2021連動企画ということで，PHPカンファレンス登壇常連者とともに短期連載を全3回で行います。内容については，今どきのPHPについてです。第1回は，PHP 8.0から導入されたアトリビュートとその活用について深掘りしたいと思います。短期連載GitOpsで作るKubernetesのCI/CD環境［3］GitOpsを動かしてみよう本連載ではKubernetes環境向けのCI/CD手法であるGitOpsについて解説します。GitOpsがどのようなものなのかという基本的な部分から，実際に利用するツールやセットアップ方法，さらに実践的なポイントにわたって紹介します。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2021/978-4-297-11975-1"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-11975-1.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL906V3TN7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DL906V3TN7');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Software Design 2021<wbr>年<wbr>9<wbr>月号</h1><p id="bookSeries">→<a href="/dp/series/Software%20Design">バックナンバー一覧</a></p>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2021/978-4-297-11975-1.jpg" alt="Software Design 2021年9月号"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    
+    
+    <dt>発売日</dt>
+    <dd><time datetime="2021-08-18">2021年8月18日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2021-08-18">2021年8月18日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/magazine/SD/archive/2021/202109" target="_blank">2021年8月18日に発売される雑誌</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">PDF</span><span class="buy">1,342円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">184</span>ページ相当</span><span class="pdf">PDF</span> <span class="plan">8月18日発売予定<a href="#" id="releaseNotify" class="" data-pid="403306" title="発売日にメールで通知する（要ログイン）">発売日に通知する</a></span></dd>
+<dt><span class="name">定期購読（EPUB/PDFセット）</span><span class="buy">年間一括15,138円／毎号1,342円 <a id="pidSubscribe" href="/dp/subscription/SD" class="subscription" title="定期購読を申し込む">定期購読を申し込む</a></span></dt><dd>お申し込み画面で選択してください</dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2021/978-4-297-11975-1" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2021/978-4-297-11975-1" data-text="Software Design 2021年9月号 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2021/978-4-297-11975-1" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2021/978-4-297-11975-1" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<h3><span class="category">第1特集</span><br />
+<span class="title">Rustでわかるメモリ管理</span><br />
+<span class="catch">しくみを知る／<wbr/>アプリを作る／<wbr/>ライブラリを読む</span></h3>
+<p>プログラミング言語Rustは人気の割に，<wbr/>難しいという意見もよく目にします。その理由の1つは，<wbr/>ライフタイムや所有権といった独自のメモリ管理機能にある様子。<br />
+本特集では，<wbr/>そうした難所を乗り越えられるよう，<wbr/>しくみから活用方法まで徹底的に解説します。プログラムにおけるメモリとメモリ管理，<wbr/>そしてRustのメモリ管理のしくみを説明したあと，<wbr/>HTTPサーバの実装を通して実際にメモリ割り当てを行います。さらに，<wbr/>普段目にする機会の少ないライブラリ内部のメモリ管理をも確認します。さあ，<wbr/>恐れることなく飛び込んでみましょう！　なお，<wbr/>環境構築や必要なツールのインストール方法は第4章で解説しています。</p>
+
+<h3><span class="category">第2特集</span><br />
+<span class="title">BigQueryが分析基盤に選ばれる理由</span><br />
+<span class="catch">新戦略ETLT［抽出・<wbr/>変換・<wbr/>書込］機能紹介
+</span></h3>
+<p>近年，<wbr/>データウェアハウス（DWH）としてGoogleの「BigQuery」がよく利用されています。従来のデータ分析基盤は，<wbr/>データを抽出（Extract）し，<wbr/>扱いやすい形式に変換（Transform）してDWHに書き込む（Load）という，<wbr/>ETLと呼ばれるパターンが主流でした。しかし，<wbr/>BigQueryを使った基盤では，<wbr/>分析のための本格的なデータ変換は，<wbr/>リソースが豊富でフルマネージドなBigQuery上であらためて行うETLTというパターンがよく採用されると言います。<br />
+本特集では，<wbr/>このETLTに着目し，<wbr/>BigQueryでデータ分析基盤を構築するためのデザインパターンを示します。みなさんのデータ分析のニーズに合うかどうかの判断材料として，<wbr/>データを抽出・<wbr/>変換・<wbr/>書き込みする機能や，<wbr/>分析するための機能を紹介します。</p>
+
+<h3><span class="category">短期連載</span><br />
+<span class="title">PHPカンファレンス2021通信</span><br />
+<span class="catch">［1］PHP8.0のアトリビュートについて</span></h3>
+
+<p>PHPカンファレンス2021連動企画ということで，<wbr/>PHPカンファレンス登壇常連者とともに短期連載を全3回で行います。内容については，<wbr/>今どきのPHPについてです。第1回は，<wbr/>PHP 8.0から導入されたアトリビュートとその活用について深掘りしたいと思います。</p>
+
+<h3><span class="category">短期連載</span><br />
+<span class="title">GitOpsで作るKubernetesのCI/CD環境</span><br />
+<span class="catch">［3］GitOpsを動かしてみよう</span></h3>
+<p>本連載ではKubernetes環境向けのCI/CD手法であるGitOpsについて解説します。GitOpsがどのようなものなのかという基本的な部分から，<wbr/>実際に利用するツールやセットアップ方法，<wbr/>さらに実践的なポイントにわたって紹介します。</p>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="42906">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3><span class="category">第1特集</span><br /><span class="title">Rustでわかるメモリ管理</span><br /><span class="catch">しくみを知る／アプリを作る／ライブラリを読む</span></h3>
+<ul class="toc">
+<li><span class="chapter">第1章</span>：ソフトウェアから見たメモリ<br /><span class="catch">まずはOS側のしくみを知ろう</span><br /><span class="author">&hellip;&hellip; 怒田 晟也</span>
+</li>
+<li><span class="chapter">第2章</span>：C，C++，Javaに見る古典的なメモリ管理<br /><span class="catch">変数，動的確保，スマートポインタ，GCひとまとめ</span><br /><span class="author">&hellip;&hellip; 吉岡 拓真</span>
+</li>
+<li><span class="chapter">第3章</span>：Rustのメモリ管理機能とその特徴<br /><span class="catch">安全性を担保するデータの所有権とライフタイム</span><br /><span class="author">&hellip;&hellip; ガラスボー</span>
+</li>
+<li><span class="chapter">第4章</span>：HTTPサーバのメモリアロケーションに挑戦<br /><span class="catch">リクエスト／レスポンスのやりとりにおけるメモリ管理の基本</span><br /><span class="author">&hellip;&hellip; κeen</span>
+</li>
+<li><span class="chapter">第5章</span>：HTTPライブラリのメモリ管理を追う<br /><span class="catch">効率性と利便性を両立させる裏側を探る</span><br /><span class="author">&hellip;&hellip; κeen</span>
+</li>
+</ul>
+
+<h3><span class="category">第2特集</span><br /><span class="title">BigQueryが分析基盤に選ばれる理由</span><br /><span class="catch">新戦略ETLT［抽出・変換・書込］機能紹介</span></h3>
+<ul class="toc">
+<li><span class="chapter">第1章</span>：BigQueryの利点と位置づけ<br /><span class="catch">ETLT環境構築の代表的なデザインパターン</span><br /><span class="author">&hellip;&hellip; 宮城 望</span>
+</li>
+<li><span class="chapter">第2章</span>：BigQueryにおけるETL<br /><span class="catch">多様なデータソースからどうDWHに集約するか</span><br /><span class="author">&hellip;&hellip; 寺内 博</span>
+</li>
+<li><span class="chapter">第3章</span>：ETL後のデータの変換と可視化<br /><span class="catch">分析のための変換をBigQueryで行うメリット</span><br /><span class="author">&hellip;&hellip; 宮城 望</span>
+</li>
+<li><span class="chapter">第4章</span>：BigQueryによるデータ基盤構築の舞台裏<br /><span class="catch">失敗から学んだ健全な運用とは</span><br /><span class="author">&hellip;&hellip; 塩崎 健弘</span>
+</li>
+</ul>
+
+<h3>一般記事</h3>
+<ul class="toc">
+<li>【新連載】［短期連載］PHPカンファレンス2021通信<br /><span class="catch">【1】PHP8.0のアトリビュートについて</span><span class="author">&hellip;&hellip; 川原 翔吾</span></li>
+<li>［短期連載］GitOpsで作るKubernetesのCI/CD環境<br /><span class="catch">【3】GitOpsを動かしてみよう</span><span class="author">&hellip;&hellip; 伊藤 竜一</span></li>
+</ul>
+
+<h3>連載</h3>
+
+<ul class="toc">
+<li>ITエンジニア必須の最新用語解説<br />【153】OSV<span class="author">&hellip;&hellip;杉山 貴章</span></li>
+<li>できる！ 自作キーボード工房<br />【4】設計編<その1>キー配列と構造<span class="author">&hellip;&hellip;サリチル酸</span></li>
+<li>結城浩の再発見の発想法<br />【100】ソーシャルグラフ<span class="author">&hellip;&hellip;結城 浩</span></li>
+<li>Raspberry PiでエッジAI<br />【5】1枚の顔写真で学習と推論に挑戦（１）学習編<span class="author">&hellip;&hellip;山川 正美</span></li>
+<li>イラストで明解Gitコマンド<br />【7】git stash<span class="author">&hellip;&hellip;大串 肇</span></li>
+<li>明後日のコンピューティングを知ろう<br />【7】IT社会の見える化<span class="author">&hellip;&hellip;松本 直人</span></li>
+<li>分解教室<br />【4】高性能ドローンDJI MAVIC Air2Sの徹底分解<span class="author">&hellip;&hellip;清水 洋治</span></li>
+<li>Pythonモダン化計画<br />【2】「テストがない」からの脱却<span class="author">&hellip;&hellip;市原 功太郎，鈴木 圭，中山 洋一，松浦 未来，松野 加苗</span></li>
+<li>UNIXテキスト処理の極意<br />【2】複数の処理を連結する<span class="author">&hellip;&hellip;中島 雅弘</span></li>
+<li>はじめての量子プログラミング体験<br />【4】定式化の考え方を数独から理解する<span class="author">&hellip;&hellip;広田 望，松田 佳希，田中 宗（監修）</span></li>
+<li>チーム開発の視点が変わる アジャイル開発の新常識<br />【10】アジャイルアーキテクトの心得<span class="author">&hellip;&hellip;志田 隆弘，梶原 直人（監修）</span></li>
+<li>パズルで鍛えるアルゴリズム力<br />【13】「小町算」と「テンパズル」の解を全探索アルゴリズムで求める！<span class="author">&hellip;&hellip;けんちょん（大槻 兼資）</span></li>
+<li>Visual Studio Code快適生活<br />【33】ターミナルやエディタ画面の構成を見なおして作業領域を1画面に収めよう<span class="author">&hellip;&hellip;職業「戸倉彩」</span></li>
+<li>【最終回】Ansible問題解決マップ<br />【26】冪等性はどんな課題を解決するのか<span class="author">&hellip;&hellip;中島 倫明</span></li>
+<li>作って学ぶ仮想マシン<br />【3】仮想マシンの実装<span class="author">&hellip;&hellip;滝澤 照太</span></li>
+<li>systemd詳解<br />【4】プロセス実行環境の用意<span class="author">&hellip;&hellip;森若 和雄</span></li>
+<li>ひみつのLinux通信<br />【91】Linuxはともだち<span class="author">&hellip;&hellip;くつなりょうすけ</span></li>
+<li>体系的に学ぶDockerネットワークのしくみ<br />【5】iptables（パート1）<span class="author">&hellip;&hellip;大隈 峻太郎</span></li>
+<li>Monthly News from jus<br />【119】連載10年間のまとめ②～研究会編～<span class="author">&hellip;&hellip;法林 浩之</span></li>
+<li>【新連載】こんなときどうする？ エンジニアも知っておきたい法律知識<br />【1】ソフトウェア開発契約における著作権の基礎<span class="author">&hellip;&hellip;弁護士　杉浦 健二</span></li>
+<li>“学習する”チームで仕事をする<br />【7】「技術組織文化」を作る方法<span class="author">&hellip;&hellip;広木 大地</span></li>
+<li>あなたのスキルは社会に役立つ～エンジニアだからできる社会貢献～<br />【117】接触確認アプリ「COCOA」OSSコミュニティの現状と課題<span class="author">&hellip;&hellip;有山 圭二</span></li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2021 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2021\/978-4-297-11975-1","path":"\/dp\/ebook\/2021\/978-4-297-11975-1","targetId":"978-4-297-11975-1","parent":"\/dp","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;gtag('event','JSError',{'evetn_category':'Error','event_label':mes});};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>
