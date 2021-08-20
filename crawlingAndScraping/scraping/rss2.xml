@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>gihyo.jp：総合</title>
+ <link>https://gihyo.jp/</link>
+ <description>gihyo.jp（総合）の更新情報をお届けします</description>
+ <language>ja-jp</language>
+ <copyright>技術評論社 2021</copyright>
+ <lastBuildDate>Fri, 20 Aug 2021 21:52:00 +0900</lastBuildDate>
+ <image>
+  <url>https://gihyo.jp/assets/templates/gihyojp2007/image/header_logo_gihyo.gif</url>
+  <title>gihyo.jp</title>
+  <link>https://gihyo.jp/</link>
+ </image>
+ <item>
+  <title>2021年8月20日　LibreOffice 7.2 Communityリリース，Apple Siliconをネイティブサポート ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/202108/20</link>
+  <description>The Document Foundationは8月19日，クロスプラットフォームのオフィススイート「LibreOffice 7.2 Community」の正式リリースを発表した。</description>
+  <pubDate>Fri, 20 Aug 2021 15:42:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/202108/20</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>2021年8月20日　ねこ影 ── 帰ってきた『技評ねこ部通信』</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/monthly-cat/202107/0820</link>
+  <description></description>
+  <pubDate>Fri, 20 Aug 2021 15:00:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/monthly-cat">帰ってきた『技評ねこ部通信』</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/monthly-cat/202107/0820</guid> 
+  <author></author>
+ </item>
+ <item>
+  <title>第25回　デザインシステムで，使い勝手／デザイン／コードに統一感を持たせる ── 縁の下のUIデザイン―少しの工夫で大きな改善！</title>
+  <link>https://gihyo.jp/design/serial/01/ui-design-unsung/0025</link>
+  <description>今回は，デザインシステムがどのようなものか，実際のサービスでどのように利用されてどのような効果を発揮しているかについて事例をもとに触れていきます。</description>
+  <pubDate>Fri, 20 Aug 2021 09:15:20 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/serial/01/ui-design-unsung">縁の下のUIデザイン―少しの工夫で大きな改善！</category>
+  <guid>https://gihyo.jp/design/serial/01/ui-design-unsung/0025</guid> 
+  <author>池田拓司</author>
+ </item>
+ <item>
+  <title>はじめに ── 良いFAQの書き方 ──ユーザーの「わからない」を解決するための文章術</title>
+  <link>https://gihyo.jp/book/2021/978-4-297-12257-7/content/preface</link>
+  <description>本書は，良いFAQの書き方をやさしく解説した本です。</description>
+  <pubDate>Fri, 20 Aug 2021 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/book/2021/978-4-297-12257-7">良いFAQの書き方 ──ユーザーの「わからない」を解決するための文章術</category>
+  <guid>https://gihyo.jp/book/2021/978-4-297-12257-7/content/preface</guid> 
+  <author>樋口恵一郎</author>
+ </item>
+ <item>
+  <title>03：Backlog World 2021開催への道，「旅」を伴にした運営チームのインサイドストーリーレポート ── Backlog World 2021で見えたこれからのプロジェクト管理とツールの未来</title>
+  <link>https://gihyo.jp/news/report/01/backlogworld2021/0003</link>
+  <description>連載の締め括りは，開催を支えた運営チームにフォーカスを当て，開催に至るまでの経緯と舞台裏についてお届けします。</description>
+  <pubDate>Thu, 19 Aug 2021 09:16:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/news/report/01/backlogworld2021">Backlog World 2021で見えたこれからのプロジェクト管理とツールの未来</category>
+  <guid>https://gihyo.jp/news/report/01/backlogworld2021/0003</guid> 
+  <author>Journeyman</author>
+ </item>
+ <item>
+  <title>最終回　AIのこれまでとこれから ── 教えて！ 最新技術―テックコミュニティの現場から</title>
+  <link>https://gihyo.jp/dev/serial/01/tech_community_site/0006</link>
+  <description>テックコミュニティの運営側で，その技術分野を常に追いかけているエンジニアの方々にお話をうかがうインタビュー企画。最終回のゲストとしてお迎えしたのは，データサイエンティストとして活躍する大城氏と松村氏です。</description>
+  <pubDate>Thu, 19 Aug 2021 09:15:40 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/serial/01/tech_community_site">教えて！ 最新技術―テックコミュニティの現場から</category>
+  <guid>https://gihyo.jp/dev/serial/01/tech_community_site/0006</guid> 
+  <author>関満徳</author>
+ </item>
+ <item>
+  <title>2021年8月第3週　3番目のポストは元から存在しない？ モバイルOS温故知新（3） ── Android Weekly Topics</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/awt/202108/19</link>
+  <description>モバイルOSの歴史に関してのレビュー，第3回です。</description>
+  <pubDate>Thu, 19 Aug 2021 09:15:20 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/awt">Android Weekly Topics</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/awt/202108/19</guid> 
+  <author>傍島康雄</author>
+ </item>
+ <item>
+  <title>2021年8月第3週号 1位は，モバイルファーストとデスクトップファーストの現状，気になるネタは，Zoom，生徒は先生の顔しか見えなくなるバーチャル授業向け機能を追加 ── 週刊Webテク通信</title>
+  <link>https://gihyo.jp/design/clip/01/weekly-web-tech/202108/19</link>
+  <description>ネットで見かけたWebテク（Webテクニック・Webテクノロジー）記事から，Webデザイナーの目で厳選したネタを週刊で紹介するこのコーナー。今回は，2021年8月9日～15日の間に見つけた記事のベスト5です。</description>
+  <pubDate>Thu, 19 Aug 2021 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/clip/01/weekly-web-tech">週刊Webテク通信</category>
+  <guid>https://gihyo.jp/design/clip/01/weekly-web-tech/202108/19</guid> 
+  <author>アシカガコウジ</author>
+ </item>
+ <item>
+  <title>第679回　LXD上にWindowsをインストールする ── Ubuntu Weekly Recipe</title>
+  <link>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0679</link>
+  <description>システムコンテナの管理ソフトウェアであるLXDは3.19から仮想マシンインスタンスもサポートするようになりました。  今回はLXDを使って「Windowsインスタンス」を起動してみましょう。</description>
+  <pubDate>Wed, 18 Aug 2021 09:50:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/serial/01/ubuntu-recipe">Ubuntu Weekly Recipe</category>
+  <guid>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0679</guid> 
+  <author>柴田充也</author>
+ </item>
+ <item>
+  <title>第2回　実務における機械学習の解釈手法と因果推論の位置づけ ── 『機械学習を解釈する技術』＆『施策デザインのための機械学習入門』著者陣によるクロストーク</title>
+  <link>https://gihyo.jp/news/interview/01/ml_engineer/0002</link>
+  <description>2021年8月に発売された『機械学習を解釈する技術』の著者である森下光之助氏と『施策デザインのための機械学習入門』を共著した齋藤優太氏，安井翔太氏の3人が集まり，執筆の経緯や書籍への想いについて3回にわたって語る第2回。</description>
+  <pubDate>Wed, 18 Aug 2021 09:15:20 +0900</pubDate>
+  <category domain="https://gihyo.jp/news/interview/01/ml_engineer">『機械学習を解釈する技術』＆『施策デザインのための機械学習入門』著者陣によるクロストーク</category>
+  <guid>https://gihyo.jp/news/interview/01/ml_engineer/0002</guid> 
+  <author>高屋卓也</author>
+ </item>
+ <item>
+  <title>第68回　他言語のライブラリをPerlに移植する（2） ── Perl Hackers Hub</title>
+  <link>https://gihyo.jp/dev/serial/01/perl-hackers-hub/006802</link>
+  <description>今回のテーマは「他言語のライブラリをPerlに移植する」。移植方針の目処が立ったら，いよいよ実装です。P</description>
+  <pubDate>Wed, 18 Aug 2021 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/serial/01/perl-hackers-hub">Perl Hackers Hub</category>
+  <guid>https://gihyo.jp/dev/serial/01/perl-hackers-hub/006802</guid> 
+  <author>うたがわきき</author>
+ </item>
+ <item>
+  <title>第68回　他言語のライブラリをPerlに移植する（1） ── Perl Hackers Hub</title>
+  <link>https://gihyo.jp/dev/serial/01/perl-hackers-hub/006801</link>
+  <description>本連載では第一線のPerlハッカーが回替わりで執筆していきます。今回のハッカーはうたがわききさんで，テーマは「他言語のライブラリをPerlに移植する」です。</description>
+  <pubDate>Tue, 17 Aug 2021 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/serial/01/perl-hackers-hub">Perl Hackers Hub</category>
+  <guid>https://gihyo.jp/dev/serial/01/perl-hackers-hub/006801</guid> 
+  <author>うたがわきき</author>
+ </item>
+ <item>
+  <title>Gihyo Digital Publishingサービス開始10周年記念キャンペーン実施のお知らせ ── ニュースリリース</title>
+  <link>https://gihyo.jp/news/nr/2021/08/1601</link>
+  <description>株式会社技術評論社が運営する電子出版サービス「Gihyo Digital Publishing」が，来る2021年8月29日でサービス開始10周年を迎えます。</description>
+  <pubDate>Mon, 16 Aug 2021 15:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/news/nr">ニュースリリース</category>
+  <guid>https://gihyo.jp/news/nr/2021/08/1601</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>2021年8月16日　&quot;The Universal Operating System&quot;をめざして ―Debian 11 &quot;bullseye&quot;がリリース ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/202108/16</link>
+  <description>Debianプロジェクトは8月14日，「Debian 11 &quot;bullseye&quot;」の正式リリースを発表した。</description>
+  <pubDate>Mon, 16 Aug 2021 14:16:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/202108/16</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>2021年8月13日　Btrfs，Linux 5.15でidmapped mountsをサポートへ ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/202108/42946</link>
+  <description>2021年4月にリリースされた「Linux 5.12」で実装された「idmapped mounts」は，ファイルやディレクトリの所有者を変更することなく，異なるUID/GIDによるマウントを可能にする機能。</description>
+  <pubDate>Fri, 13 Aug 2021 16:13:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/202108/42946</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>2021年8月13日号　20.04.3の延期，impishの開発・Test Rebuild ── Ubuntu Weekly Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/ubuntu-topics/202108/13</link>
+  <description>先週お知らせした20.04.3は，8月26日に延期されることになりました。また，impishの開発ではtest rebuildが開始されました。</description>
+  <pubDate>Fri, 13 Aug 2021 10:00:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/ubuntu-topics">Ubuntu Weekly Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/ubuntu-topics/202108/13</guid> 
+  <author>吉田史</author>
+ </item>
+ <item>
+  <title>2021年8月12日　elementaly OS 6.0 &quot;Odin&quot;がリリース，約2年ぶりのメジャーアップデート ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/202108/12</link>
+  <description>elementalyは8月10日，「elementaly OS 6 &quot;Odin&quot;」のリリースを発表した。</description>
+  <pubDate>Thu, 12 Aug 2021 15:54:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/202108/12</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>2021年8月12日　ねこが落ちている季節・・・ ── 帰ってきた『技評ねこ部通信』</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/monthly-cat/202107/0812</link>
+  <description>暑いですね。熱帯夜に限って，同居ねこが腹に乗っかってくるのをつい喜んでしまうねこ部は，どMなのでしょうか？</description>
+  <pubDate>Thu, 12 Aug 2021 15:00:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/monthly-cat">帰ってきた『技評ねこ部通信』</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/monthly-cat/202107/0812</guid> 
+  <author></author>
+ </item>
+ <item>
+  <title>2021年8月第2週　3番目のポストは元から存在しない？ モバイルOS温故知新（2） ── Android Weekly Topics</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/awt/202108/12</link>
+  <description>前回に続き，モバイルOSの歴史，最新動向と展望について考察します。
+</description>
+  <pubDate>Thu, 12 Aug 2021 09:15:20 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/awt">Android Weekly Topics</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/awt/202108/12</guid> 
+  <author>傍島康雄</author>
+ </item>
+ <item>
+  <title>2021年8月第2週号 1位は，Font AwesomeがデザインツールをFigmaに変えた理由，気になるネタは，Google Nestの新製品，ネットワークカメラとカメラ付きドアホンが2万円台で発売 ── 週刊Webテク通信</title>
+  <link>https://gihyo.jp/design/clip/01/weekly-web-tech/202108/12</link>
+  <description>ネットで見かけたWebテク（Webテクニック・Webテクノロジー）記事から，Webデザイナーの目で厳選したネタを週刊で紹介するこのコーナー。今回は，2021年8月2日～8日の間に見つけた記事のベスト5です。</description>
+  <pubDate>Thu, 12 Aug 2021 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/clip/01/weekly-web-tech">週刊Webテク通信</category>
+  <guid>https://gihyo.jp/design/clip/01/weekly-web-tech/202108/12</guid> 
+  <author>アシカガコウジ</author>
+ </item>
+</channel>
+</rss>
