@@ -3,7 +3,7 @@
 from apiclient.discovery import build
 
 
-YOUTUBE_API_KEY = 'AIzaSyAMZ79QXajNVB0SkiipaZM72lGjJ492Qcg'
+YOUTUBE_API_KEY = ''
 youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
 search_response = youtube.search().list(
                                            part='snippet',
