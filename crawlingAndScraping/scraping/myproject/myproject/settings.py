@@ -62,9 +62,11 @@ DOWNLOAD_DELAY = 1
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+FILES_STORE = 'images'
 ITEM_PIPELINES = {
     # 'myproject.pipelines.ValidationPipeline': 300,
-    'myproject.pipelines.MongoPipeline': 800,
+    # 'myproject.pipelines.MongoPipeline': 800,
+      'scrapy.pipelines.files.FilesPipeline: 1'
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
